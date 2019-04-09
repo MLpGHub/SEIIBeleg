@@ -1,0 +1,223 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	margin=2cm,
+	left=3cm, bottom=2.5cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[toc]{glossaries}
+\usepackage{chngcntr} %change counter
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+
+%predefined colors: black, blue, cyan, green, magenta, red, white, yellow
+\definecolor{commentgreen}{rgb}{0,0.6,0}
+\definecolor{keywordblue}{rgb}{0,0,0.8}
+\definecolor{orange}{rgb}{0.9,0.5,0}
+\definecolor{internal_link}{rgb}{0,0,0.4}
+
+\hypersetup{
+	colorlinks=true, 
+	linkcolor=internal_link, 
+	urlcolor=cyan}
+
+\lstset{
+	language=C,
+	basicstyle=\footnotesize\ttfamily,
+	showstringspaces=false,
+	commentstyle=\itshape\color{commentgreen},
+	keywordstyle=\bfseries\color{keywordblue},
+%	identifierstyle=\color{red},
+	stringstyle=\color{orange}
+}
+
+\setlength{\parindent}{0em} %setzt Paragraphen-Einzug auf 0
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand\labelitemii{\textbullet}
+\renewcommand\labelitemiii{\textbullet}
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+
+\makeglossaries
+%bash: (glossaries = filename)
+%pdflatex glossaries.tex
+%makeglossaries glossaries
+%pdflatex glossaries.tex 
+
+\title{\textbf{Lastenheft}}
+\author{"Interaktives \Gls{TicTacToe} für Kinder"}
+\date{\today} %richtige Formatierung mittels package babel (s.o.)
+
+
+\newglossaryentry{TicTacToe}{
+	name= TicTacToe,
+	description = Strategiespiel dessen Wurzeln im 12. Jahrhundert vor Chritus liegen
+}
+
+\newglossaryentry{Empfangstresen}{
+	name= Empfangstresen,
+	description = Bereich zur Aufnahme der erschienen Patienten
+}
+
+\newglossaryentry{Sprechstunde}{
+	name= Sprechstunde,
+	description = {Öffnungzeit der Kinderarztpraxis, in der die Behandlung von Patienten erfolgt}
+}
+
+\newglossaryentry{Icon}{
+	name= Icon,
+	description = {kleines Bildsymbol}
+}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\cfoot{\includegraphics[scale=0.9]{footer.pdf} \thepage}
+
+\begin{document}
+\begin{titlepage}
+	\centering	
+	\begin{figure}
+	\includegraphics[scale=0.9]{banner.pdf} %\logo{\includegraphics{banner.pdf}}
+	\end{figure}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\vspace*{10cm}	
+	
+	\begin{flushleft}
+	Geschäftsführer: \hspace*{1mm} Dr. med. Lasse Niessen\\
+	Kontakt:\\
+		\hspace*{1cm} Telefon: \hspace*{5mm} 0351/327890\\
+		\hspace*{1cm} Adresse: \hspace*{4mm} Spielerstr. 56, 01069 Dresden\\
+	
+	Öffnungszeiten:\\
+		\hspace*{3.2cm} Montag bis Samstag\\
+		\hspace*{3.2cm} 7:00 Uhr - 17:00 Uhr\\
+	LANR: \hspace*{1.75cm} 192268101	
+	\end{flushleft}
+	
+	%\begin{figure}
+	%\includegraphics{copdsg.pdf} %\logo{\includegraphics{copdsg.pdf}}
+	%\end{figure}
+	\newpage \thispagestyle{empty} \tableofcontents 
+\end{titlepage}
+	
+	
+%"` links, "' rechts
+
+\setcounter{page}{3}
+\section{Einleitung}
+Die Kinderarztpraxis Dr. med. Lasse Niessen verfügt über einen gut ausgestatteten Wartebereich. Dieser soll erweitert werden, sodass die Patienten auch mit digitalen Spielen die Wartezeit überbrücken können. Es soll das Spiel "`\Gls{TicTacToe}"' für ein Touchdisplay im Wartebereich entwickelt werden.
+
+\section{Ausgangssituation}
+Der touch-fähige Bildschirm ist bereits im Wartezimmer installiert und mit einem hinter dem \Gls{Empfangstresen} stehenden Computer verbunden. Auf dem Computer ist das Betriebssystem Windows 10 installiert, für das auch die Anwendung entwickelt werden soll. Am \Gls{Empfangstresen} selbst stehen zwei mit dem Computer verbundene Bildschirme. Das Touch-Display ist als externer, weiterer Monitor des Computers angeschlossen. Der \Gls{Empfangstresen} befindet sich direkt gegenüber vom Wartebereich.\\
+Derzeit existiert keine Software, die die Verwaltung oder die Nutzung von digitalen Spielen realisiert.
+
+\section{Sollkonzept}
+\subsection{Anwendungsbereich}
+Das fertige Spiel soll im Wartebereich einer Kinderarztpraxis zum Einsatz kommen. Während des Wartens auf die Behandlung sollen die Patienten und ihre Eltern auf dem Bildschirm das Spiel "`\Gls{TicTacToe}"' spielen können. Das Starten und Beenden der Software soll über einen der sich am Empfangstresen befindenden Monitore von Mitarbeitern der Kinderarztpraxis erfolgen.
+
+\subsection{Systemidee}
+Es soll ein einfaches, übersichtliches Computerspiel ("`\Gls{TicTacToe}"') entwickelt werden. Die Bedienung durch Patienten soll ausschließlich über ein druckempfindliches Display erfolgen.
+
+\subsection{Ziele}
+Zwei Mitspieler sollen über die Berührung der Spielfelder abwechselnd die entsprechenden Spielersymbole in das berührte Feld setzen. Gewinnt einer der beiden Spieler, soll eine Meldung eingeblendet werden. Mithilfe einer Schaltfläche kann das Spiel jederzeit zurückgesetzt werden. Die Benutzeroberfläche soll eine möglichst einfache Bedienung erlauben.\\
+Das Programm soll ausschließlich von einem Mitarbeiter der Praxis gestartet und beendet werden können. \\
+
+\subsection{Zielgruppen}
+\begin{tabularx}{\textwidth}{|l|X|} \hline
+\textbf{Anforderungsbeitragende}  & \textbf{Anforderung}\\ \hline
+Kinder/ Eltern (Nutzer) & Anwendung des Spiels über Bildschirmeingabe, keine weitere Möglichkeit der Bedienung \\ \hline
+Mitarbeiter & Starten und Beenden der Software über Maus und Tastatur \\ \hline
+\end{tabularx}\\
+
+\section{Projektgegenstand}
+\subsection{Problemdomäne}
+Die Software findet in dem Wartebereich der Kinderarztpraxis Anwendung. Sie soll, da nicht allein nutzbar, die Kommunikation, sowie das gemeinsame Spielen von Eltern-Kind und Kind-Kind fördern. Außerdem soll die häufig als Belastung empfundene Wartezeit überbrückt werden.
+
+\subsection{Prozesse}
+Die Nutzung der Software durch die Patienten und ihre Eltern soll nach dem Anmelden für die \Gls{Sprechstunde} und während des Wartens auf die Behandlung erfolgen. Das Starten der Software soll zu Beginn der Sprechstunden gestartet und zum Ende der Sprechstunden beendet werden. Das Starten und Beenden soll von einem Mitarbeiter der Kinderarztpraxis vorgenommen werden.
+
+\subsection{Produktumgebung}
+Die Umsetzung mit grafischer Oberfläche (Aufruf über eine ausführbare Datei) soll mittels der Programmiersprache Java erfolgen.\\
+Das Programm soll auf einem, hinter dem \Gls{Empfangstresen} befindlichen, Computer durchgängig laufen. An dem Computer sind zwei Monitore angeschlossen, die am \Gls{Empfangstresen} stehen. Die Anzeige der Software soll über das Touch-Display im Wartezimmer erfolgen, welches ebenfalls an den Computer angeschlossen ist. Das installierte Betriebssystem ist Windows 10. Die maximale Auflösung des Touch-Bildschirms im Wartebereich beträgt 1920x1080 Pixel. Der Raum ist klimatisiert.
+
+\subsection{Schnittstellen}
+Schnittstellen zu Produkten von Drittanbietern sind nicht vorgesehen. Datenspeicherung soll keine erfolgen.
+
+\subsection{Benutzerschnittstelle}
+Die Benutzerschnittstelle soll grafisch umgesetzt werden. Die Bedienung des Programmes soll ausschließlich über Schaltflächen geschehen, die mit \Glspl{Icon} beschriftet sind.
+
+\section{Projektbedingungen}
+\subsection{Zeitlicher Rahmen}
+Die Leistung ist bis zum 01.10.2019 zu erbringen.
+
+\subsection{Auftragswert}
+Der Nettoauftragswert beträgt aufgrund der beschränkten Ausschreibung maximal 2000 Euro.
+
+\subsection{Angebotserstellung}
+Zur Prüfung der Angemessenheit der Preise ist mit dem Angebot die Kalkulation mit Auflistung der Bestandteile der Gesamtsumme einzureichen.
+
+\section{Anforderungen}
+\subsection{Funktionale Anforderungen}
+\begin{tabularx}{\textwidth}{|l|X|X|} \hline
+\textbf{Anforderung} & \textbf{Beschreibung} & \textbf{Bemerkung}\\ \hline
+F1 & Durchführung des Spiels und Zurücksetzen der Partie & per touch, 3x3 Spielfeld \\ \hline
+F2 & Starten und Beenden & ausschließlich durch Mitarbeiter \\ \hline
+\end{tabularx}\\
+
+\subsection{Nicht-funktionale Anforderungen}
+\begin{tabularx}{\textwidth}{|l|X|X|} \hline
+\textbf{Anforderung} & \textbf{Beschreibung} & \textbf{Bemerkung}\\ \hline
+NF1 & look and feel & kinderfreundliche grafische Umsetzung \\ \hline
+NF2 & look and feel & keine grellen Farben, keine schnellen, blinkenden Animationen \\ \hline
+NF3 & Bedienung & Bedienende sind vorwiegend Kinder, Bedienung muss klar, verständlich und intuitiv sein \\ \hline
+NF4 & Sprache & ausschließlich Umsetzung mittels Symbolik \\ \hline
+\end{tabularx}\\
+
+\section{Lieferumfang}
+\subsection{Auslieferung der Software}
+Für die Auslieferung ist vorgesehen, die Software mit den passenden Dokumenten zur Verfügung zu stellen.
+
+\subsection{Wiederverwendbarkeit}
+Es soll gewährleistet werden, das Programm in zukünftige Projekte einbinden zu können.
+
+\subsection{Testung}
+Für das Projekt ist ein Funktionstest auf der Plattform des Auftragnehmers vorgesehen.
+
+\subsection{Inbetriebnahme}
+Die Installation und Inbetriebnahme des Programms soll durch den Auftragnehmer erfolgen, und eine komplette Installation auf dem Zielsystem beinhalten.
+
+\subsection{Abnahme}
+Die Abnahme erfolgt am Tag der Inbetriebnahme durch den Auftraggeber.
+
+\subsection{Schulung}
+Am Tag der Inbetriebnahme soll ebenfalls eine Einweisung erfolgen, die den Mitarbeitern die grundlegende Handhabung der Software erläutert.
+
+\subsection{Support}
+Eine telefonische Erreichbarkeit des Auftragnehmers soll im Falle einer Störung gewährleistet sein.
+
+\subsection{Dokumentation}
+Eine textuelle Anwenderdokumentation und eine Entwicklerdokumentation sind zu erstellen. Die Erstellung einer Administratorendokumentation ist unter technischen Aspekten abzuwägen.\\
+
+
+%Anmerkungen für spätere Verwendung von Glossar-Einträgen
+%\Gls{pi} %groß geschrieben
+%\gls{pi} %klein geschrieben 
+%\Glspl{pi} %groß geschrieben + plural
+%\gls{latex}
+
+\newpage
+\clearpage
+\printglossaries
+
+\end{document}

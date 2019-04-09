@@ -1,0 +1,44 @@
+
+
+//
+09.02.2019 Praktikum in der 2 KW
+Namenfindung durch Micha: Kleinprogramm GmbH
+Erstellung des Grobaufbau des Pflichtenhefts (Formatierung) 
+Erste Befuellung des Pflichtenhefts
+
+//
+15.02.2019 Praktikum in der 3 KW
+
+Aufnahme von R. Siedler in die Gruppe, da er verspaetet Teilnehmen an der PVL wollte.
+Rollenfestlegung: 
+	Micha: Chef
+	Emanuel: Programmierer
+	Robert: "Finanzheini" :)
+	Patrick : Werksstudent
+	
+Aufgabenaufteilung:
+
+Micha: Pflichtenheft, Firmenportaet
+Robert: Corporate Design, Kalkulation
+Emanuel: Angebot
+Patirck: Dokumentation
+
+Ueberlegung wie das Programm Aufgebaut ist. --> FinalStateMachine Grobfassung
+
+//
+23.02.2019 Praktikum in der 4 KW
+
+kontrolle des Angebots und Firmenportaet. Beides fuer gut und korrekt empfunden
+
+Welche Diagramme brauchen wir? --> Klassendiagramm(Vorgegeben) Anwendungsfalldiagramm(Vorgegeben) Zustandsdiagramm 
+Diagramme Erstellt
+
+//
+29.02.2019 Praktikum in der 5 KW
+
+Finalisierung:
+Zusammenschreiben
+
+
+
+Druck durch: ??
