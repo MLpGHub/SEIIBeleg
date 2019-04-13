@@ -1,5 +1,5 @@
 public class Infos extends InfoScreen {
-	public Infos() {
-		//
+	public Infos(Driver driver) {
+		super(driver);
 	}
 }

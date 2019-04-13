@@ -31,10 +31,10 @@ public class Driver extends Frame {
 			}});
 
 		menu = new Menu(this);
-		regeln = new Regeln();
-		infos = new Infos();
-		spiel = new Spiel();
-		sieg = new Sieg();
+		regeln = new Regeln(this);
+		infos = new Infos(this);
+		spiel = new Spiel(this);
+		sieg = new Sieg(this);
 
 		this.add("menu", menu);
 		this.add("regeln", regeln);
@@ -52,27 +52,24 @@ public class Driver extends Frame {
 
 	public void showMenu() {
 		cl.show(this, "menu");
-		System.out.println("showMenu()");
+		//System.out.println(this.toString());
 	}
 
 	public void showRegeln() {
 		cl.show(this, "regeln");
-		System.out.println("showRegeln()");
 	}
 
 	public void showInfos() {
 		cl.show(this, "infos");
-		System.out.println("showInfos()");
 	}
 
 	public void showSpiel() {
 		cl.show(this, "spiel");
-		System.out.println("showSpiel()");
 	}
 
-	public void showSieg() {
+	public void showSieg(String s) {
+		sieg.setText(s);
 		cl.show(this, "sieg");
-		System.out.println("showSieg()");
 	}
 
 	public static void main(String[] args) {
