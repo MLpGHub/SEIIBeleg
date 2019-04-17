@@ -1,0 +1,14 @@
+IDE/Editor:
+- IndelliJ IDEA: kostenpflichtig <-> auch freie Versionen
+
+Build Tool:
+- Ant: fortgeführt, aber alt (Widerspruch, schlecht formuliert)
+
+UML Tool:
+- Keine Codegenerierung erforderlich? (ist Aufgabenstellung)
+
+Obfuscator, Test-Automatisierung:
+- relativ/zu wenige Kriterien
+
+Dokumentationstool:
+- Kriterien/Kriterium: zu wenig

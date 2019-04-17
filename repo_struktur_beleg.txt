@@ -1,0 +1,28 @@
+﻿repo:
+	-+final:
+     	 |    -Firmenporträt des AG (pdf)
+	 |    -Lastenheft (pdf)
+	 |    -Ausschreibungstext (pdf)
+	 |    -Firmenporträt des AN (pdf)
+	 |    -Angebot (pdf)
+	 |    -Kalkulation (pdf)
+	 |    -Projektbegleitender Bericht (pdf)
+	 |    -Pflichtenheft (pdf)
+	 |    -Toolvergleich (pdf)
+         |    -Entwicklerdoku/UML (pdf, html, Bilddateien)
+	 |    -Anwenderdoku (pdf)
+	 |    -Admindoku (pdf)
+	 |    -Produkt (jar)
+	 |    ... alle weiteren Artefakte
+	 |
+	 +Projektordner Java (Eclipse, Netbeans etc.)
+	 |
+	 +Projektordner UML (Topcased, StarUML etc.)
+	 |
+	 +Projektordner Prototyp
+	 |
+	 +Dokumentenordner (Office, LaTeX etc.)
+	 |
+	 ... alle weiteren Ordner für Bearbeitung
+	 
+	 

@@ -1,0 +1,22 @@
+Zum Angebot:
+	Der Preis ist etwas versteckt. er müsste offensichtlicher Sichtbar sein.
+	
+Zum Firmenportrait:
+	Kommentarlos
+
+Zur Kalkulation:
+	Er will Stundensätze sehen
+
+Zum Pflichtenheft:
+	1.1 		Muss Kriterien 		-->TicTacToe als Kriterium muss eingeführt werden
+	2.3 		Produktumgebung		-->GR: Bin-Ordner
+	2.3.1.							-->GR: 64bit-Windows-10-Betriebssystem
+	2.4								-->GR: Windows-10-Betriebssystem
+	3.1.1							-->AF-03 umbenennen zu Gewinnauswertung | AF-06 GR: Touch-Eingabe
+	3.1.3							-->Diagramm: doppelte '1blase' doppelkter '2blase' unnötig   | GR Zaehle
+	3.2								-->NF-W1 GR: weitere / hinzufügen.
+	5. 								--> ' Geschäftszeiten des AG
+	6.4								--> GR: Weitere referenzierte Dokumente
+	
+	Glosssar						Repository-- Ein Raum, Contaqiner (leerzeichen)
+									TicTacToe -- Strategiespiel, dessen (kommata)						

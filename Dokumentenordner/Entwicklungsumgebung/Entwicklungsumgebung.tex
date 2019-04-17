@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	margin=2cm,
+	left=3cm,
+	top=2cm}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,     
+    urlcolor=cyan
+}
+
+\setlength{\parindent}{0em} %setzt Paragraphen-Einzug auf 0
+
+\title{Spezifikation Entwicklungsumgebung}
+
+\begin{document}
+
+\large \textbf{Spezifikation Entwicklungsumgebung}
+
+\normalsize
+
+\vspace*{7mm}
+
+\textbf{IDE / Editor}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Eclipse}&\textbf{IntelliJ IDEA}&\textbf{NetBeans}\\ \hline
+ \textbf{Lizenz}&Eclipse Public License&kostenpflichtig&Apache License 2.0\\ \hline
+ \textbf{Erfahrungswerte}&gut&-&-\\ \hline
+ \textbf{vorhandene Fähigkeiten}&ja&nein&nein\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} Eclipse
+
+\textbf{Begründung:} Gute Erfahrungen sind ebenso vorhanden wie der erfahrene Umgang der Mitarbeiter mit dieser IDE. Weiterhin ist Eclipse sehr umfangreich und bietet gute Schnittstellen zur Erweiterung des Funktionsumfangs.
+
+\vspace*{10mm}
+
+\textbf{Versionierung}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Git}&\textbf{hg/Mercurial}&\textbf{svn/Subversion}\\ \hline
+ \textbf{Funktionsumfang}&groß&mittel&mittel\\ \hline
+ \textbf{Verbreitung}&sehr hoch&hoch&mittel\\ \hline
+ \textbf{Organisation}&dezentral&dezentral&zentral\\ \hline
+ \textbf{Funktionsumfang}&GPLv2.0&GPLv2+&Apache License 2.0\\ \hline
+ \textbf{Erfahrungswerte}&gut&-&-\\ \hline
+ \textbf{vorhandene Fähigkeiten}&ja&nein&nein\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} Git
+
+\textbf{Begründung:} Git ist weit verbreitet, besitzt einen großen Funktionsumfang und es bestehen gute Erfahrungswerte mit dieser Versionierungssoftware.
+
+\vspace*{10mm}
+
+\textbf{Build Tool}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Ant}&\textbf{Maven}&\textbf{Gradle}\\ \hline
+ \textbf{Dokumentation}&gut&gut&gut, mit Online-Tutorial\\ \hline
+ \textbf{Lizenz}&Apache License 2.0&Apache License 2.0&Apache License 2.0\\ \hline
+ \textbf{Aktualität}&fortgeführt, aber alt&aktuell&aktuell\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} Gradle
+
+\textbf{Begründung:} Gradle ist sehr gut dokumentiert und aktuell.
+
+\vspace*{30mm}
+\vspace*{\fill}
+\includegraphics[scale=0.9]{footer.pdf}
+\thispagestyle{empty}
+
+%\vspace*{10mm}
+
+\textbf{UML Tool}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Eclipse Topcased}&\textbf{StarUML}&\textbf{Papyrus}&\textbf{draw.io}\\ \hline
+ \textbf{Aktualität}&nicht fortgeführt&aktuell&aktuell&aktuell\\ \hline
+ \textbf{Code-Generierung}&ja&ja&ja&nein\\ \hline
+ \textbf{Lizenz}&Eclipse Public License&frei, kommerziell kostenpflichtig&Eclipse Public License&kostenlos\\ \hline
+ \textbf{Portabilität}&Java: Mac/Win/Linux&Mac/Win/Linux&Java: Mac/Win/Linux&ja, Web-App\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} draw.io
+
+\textbf{Begründung:} Die Aktualität sowie die Portabilität durch die Webfunktionalität sind gewährleistet. Es ist keine Codegenerierung erforderlich.
+
+\vspace*{10mm}
+
+\textbf{Tool für Prototyping}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Gomocking-bird}&\textbf{Ninjamock}&\textbf{Pencil}&\textbf{Papier etc.}\\ \hline
+ \textbf{Einschätzung}&Webdesign&skizzenhaft, aber digital&simpel, geometrisch&freihand, dynamisch\\ \hline
+ \textbf{Plattform}&Web-App&Web-App&Mac/Win/Linux&analog\\ \hline
+ \textbf{Lizenz}&Anmeldung benötigt&kostenpflichtig&Open Source&kostenlos\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} Pencil, Papier
+
+\textbf{Begründung:} Die Software besitzt eine geeignete Lizenz, arbeitet lokal und unterstützt mehrere Plattformen.
+
+\vspace*{10mm}
+
+\textbf{Obfuscator}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{ProGuard}&\textbf{JavaGuard}&\textbf{yGuard}\\ \hline
+ \textbf{Lizenz}&GPLv2&LGPL&LGPL\\ \hline
+ \textbf{Dokumentation}&ausführlich&wenig&wenig\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} ProGuard
+
+\textbf{Begründung:} ProGuard besitzt eine gute Dokumentation.
+
+\vspace*{3mm}
+\vspace*{\fill}
+\includegraphics[scale=0.9]{footer.pdf}
+\thispagestyle{empty}
+
+\newpage
+
+
+\textbf{Test-Automatisierung}
+
+\begin{tabularx}{\textwidth}{|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{JUnit}&\textbf{TestNG}\\ \hline
+ \textbf{Erfahrungswerte}&gut&-\\ \hline
+ \textbf{vorhandene Fähigkeiten}&ja&nein\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} JUnit
+
+\textbf{Begründung:} Es existieren gute Erfahrungswerte und Fähigkeiten mit diesem Automatisierungswerkzeug. Außerdem lässt es sich in der gewählten IDE integrieren.
+
+\vspace*{10mm}
+
+\textbf{Codeconvention}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Google} [1]&\textbf{Mozilla} [2]&\textbf{Oracle} [3]\\ \hline
+ \textbf{Kommentare}&alle&einfache, keine Dokumentations-kommentare&alle\\ \hline
+ \textbf{Zeichensatz}&UTF-8&UTF-8&UTF-8\\ \hline
+ \textbf{Tabulatoren}&nur Leerzeichen&nur Leerzeichen, Tab = 4 Leerzeichen&nur Leerzeichen\\ \hline
+ \textbf{Bezeichnungen}&CamelCode&CamelCode&CamelCode\\ \hline
+ \textbf{Zeichen pro Zeile}&80&100&80\\ \hline
+ \textbf{Deklarationen pro Zeile}&max. 1&max. 1&max. 1\\ \hline
+ \textbf{Statements pro Zeile}&max. 1&-&max. 1\\ \hline
+ \textbf{Sonstiges}&-&-&Code in Sections gegliedert, pro Datei ein einleitender Kommentar mit Infos\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+$[1]$ \url{https://google.github.io/styleguide/javaguide.html} \\
+$[2]$ \url{https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style#Java_practices} \\
+$[3]$ \url{https://www.oracle.com/technetwork/java/codeconventions-150003.pdf} \\
+
+\textbf{Auswahl:} Google
+
+\textbf{Begründung:} Google's Codeconvention für Java bietet eine ausreichende Strukturierung des Codes, ohne zu restriktiv zu sein.
+
+\vspace*{30mm}
+\vspace*{\fill}
+\includegraphics[scale=0.9]{footer.pdf}
+\thispagestyle{empty}
+
+
+
+
+\textbf{Dokumentationstool}
+
+\begin{tabularx}{\textwidth}{|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Javadoc}&\textbf{Doxygen}\\ \hline
+ \textbf{Integration in IDE}&gut&nicht vorhanden\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} Javadoc
+
+\textbf{Begründung:} Javadoc ist im Gegensatz zu Doxygen mit der gewählten IDE kompatibel beziehungsweise lässt sich gut in diese integrieren.
+ \vspace*{10mm}
+
+\textbf{Kollaborationstool}
+
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|}\hline
+ \textbf{Kriterien}&\textbf{Mailingliste}&\textbf{persönliches Treffen}&\textbf{Issue Tracker}&\textbf{Owncloud}\\ \hline
+ \textbf{Eigenschaften}&verteilte Kommunikation&individuell, dynamisch&zentrale Organisation von Bugs&zentrale Datenspeicherung, keine Parallelität\\ \hline
+\end{tabularx}
+
+\vspace*{3mm}
+
+\textbf{Auswahl:} persönliches Treffen, Issue Tracker
+
+\textbf{Begründung:} In persönlichen Treffen ist der Informationsaustausch wesentlich intensiver als bei vergleichbaren Kommunikationswegen. Über Issue Tracker der Bug-Status des Projektes überwacht werden.
+
+
+\vspace*{\fill}
+\includegraphics[scale=0.9]{footer.pdf}
+\thispagestyle{empty}
+\end{document}
