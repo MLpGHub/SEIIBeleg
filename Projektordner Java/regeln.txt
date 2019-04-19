@@ -1,0 +1,5 @@
+TicTacToe
+ist ein Spiel
+3x3 Feld
+zwei Spieler nacheinander je ein Feld besetzen
+gewonnen hat, wer drei besetzte Felder in einer Reihe hat (senkrecht, waagerecht, diagonal)
