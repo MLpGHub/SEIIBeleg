@@ -1,5 +1,1 @@
-TicTacToe
-ist ein Spiel
-3x3 Feld
-zwei Spieler nacheinander je ein Feld besetzen
-gewonnen hat, wer drei besetzte Felder in einer Reihe hat (senkrecht, waagerecht, diagonal)
+Tic Tac Toe ist ein Spiel für zwei Spieler. Auf einem 3x3 Felder großen Feld setzen die Spieler nacheinander ihr jeweiliges Zeichen/Symbol. Ein Spieler gewinnt, wenn er senkrecht, waagerecht oder diagonal drei Felder in einer Reihe mit seinem Zeichen/Symbol besetzen kann. Sind alle Felder belegt, ohne dass ein Spieler gewinnt, kommt es zu einem Unentschieden.

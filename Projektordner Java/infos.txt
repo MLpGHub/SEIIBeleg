@@ -2,11 +2,13 @@ TicTacToe
 
 entwickelt für
 Kinderarztpraxis Dr. Lasse Niessen
-<Kontakt>
+<kontakt> //??
+Tel. //??
 
 entwickelt von
-Kleinprogramm GmbH
-<Kontakt>
+KLEINPROGRAMM GmbH
+kontakt@kp.de
+<homepage> //??
 
 (c) Copyright 2019 <Lizenz>
-
+//oder "all rights reserved"
