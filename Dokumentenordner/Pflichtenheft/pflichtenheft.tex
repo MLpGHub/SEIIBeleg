@@ -88,7 +88,7 @@
 }
 \newglossaryentry{Repository}{
 	name= Repository,
-	description = {Ein Raum,Container wo etwas zur Aufbewahrung gespeichert werden soll}
+	description = {Ein Raum, Container wo etwas zur Aufbewahrung gespeichert werden soll}
 }
 
 
@@ -176,10 +176,10 @@ Die \Gls{TicTacToe}-Anwendung dient dem förderlichem Umgang mit Technik bei Kin
 \subsection{Zielgruppen}
 Benutzt wird die Anwendung von Patienten bzw. Besuchern und Angestellten der Kinderarztpraxis Dr. med. Lasse Niessen. Dabei werden Kinder und Eltern die Hauptrolle einnehmen. Die Angestellten der Kinderarztpraxis sind für das Starten und Beenden der Anwendung zuständig. Weitere Rollen - wie beispielsweise eine Administratorrolle - treten nicht auf.
 \subsection{Produktumgebung}
-Das System benötigt mindestens eine installierte Java Runtime ab Java-Version 1.8. Um mit wenig Aufwand starten zu können, ist der bin-Ordner der Javaumgebung in der globalen Pfad-Variable des Betriebssystems abzulegen.
+Das System benötigt mindestens eine installierte Java Runtime ab Java-Version 1.8. Um mit wenig Aufwand starten zu können, ist der Bin-Ordner der Javaumgebung in der globalen Pfad-Variable des Betriebssystems abzulegen.
 Hardwareanforderungen bestehen in dem Touchscreen, welcher mit einem Bildschirm verbunden sein muss. Dieser ist bereits vorhanden.
 \subsubsection{Architektur}
-Die verwendete Architektur ist ein 64bit Windows 10 Betriebssystem.
+Die verwendete Architektur ist ein 64bit-Windows-10-Betriebssystem.
 \subsection{Betriebsbedingungen}
 Das System wird für die Anwendungsfälle F1 und F2 im Warteraum beziehungsweise am Empfang der Kinderarztpraxis genutzt. Die Angestellten öffnen die Anwendung an dem dort befindlichen Rechner, während die Hauptnutzer im Wartezimmer spielen. Die Anwendung soll ohne weitere Betreuung durch das Praxispersonal funktionieren, um den Praxisalltag nicht zu beeinflussen. Der Rechner wird zyklisch aktualisiert und es läuft ein Windows 10 Betriebssystem ab der Version 1809. Die Wartung beziehungsweise Installation der Software erfolgt außerhalb der Sprechzeiten oder in Pausenzeiten der Praxis, die mindestens 30 Minuten betragen. Der Raum ist klimatisiert. Der Rechner hat keine unterbrechungsfreie Stromversorgung.
 
@@ -190,10 +190,10 @@ Das System wird für die Anwendungsfälle F1 und F2 im Warteraum beziehungsweise
 \begin{tabularx}{\textwidth}{|l|l|X|} \hline
 AF-01&Programmstart&Das Programm soll in ein Menü mit dem Titel "`\Gls{TicTacToe}"' starten, in dem weiterhin die \Glspl{Button} "`Spiel starten"', "`Regeln"', "`Infos"'.\\ \hline
 AF-02&Spielen&Das Spiel soll über die Berührung des "`Spiel starten"'-\Glspl{Button} gestartet werden. Es soll die Spielfläche von 3x3 Feldern angezeigt werden. Durch die Berührung von jeweils einem noch freien Spielfeld soll auf dem gewählten Spielfeld das Symbol des jeweiligen Spieler erscheinen.\\ \hline
-AF-03&Gewinnen&Das Programm analysiert nach jedem Spielzug das Spiel und erkennt, wenn ein Spieler gewonnen hat oder ein Unentschieden entsteht. Tritt einer dieser Fälle ein, wird das Spielfeld ausgeblendet und eine Meldung gezeigt, die das Spielergebnis beschreibt. Weiterhin soll es zwei \Glspl{Button} geben: "`Neues Spiel starten"', welcher ein neues Spiel beginnt, und "`zurück zum Menü"', welcher bei Aktivierung wieder das Menü anzeigt.\\ \hline
+AF-03&Gewinnauswertung&Das Programm analysiert nach jedem Spielzug das Spiel und erkennt, wenn ein Spieler gewonnen hat oder ein Unentschieden entsteht. Tritt einer dieser Fälle ein, wird das Spielfeld ausgeblendet und eine Meldung gezeigt, die das Spielergebnis beschreibt. Weiterhin soll es zwei \Glspl{Button} geben: "`Neues Spiel starten"', welcher ein neues Spiel beginnt, und "`zurück zum Menü"', welcher bei Aktivierung wieder das Menü anzeigt.\\ \hline
 AF-04&Testung 1&Es wird zunächst ein einfacher Funktionstest für den Anwendungsfall AF-05 gemacht. \\ \hline
 AF-05&Testung 2&Im Einsatz soll in der ersten Woche die Wirkung auf die Kinder durch das Personal überprüft werden. Bei Fehlfunktion beziehungsweise schlechter Annahme wird eine Überarbeitung angestrebt.\\ \hline
-AF-06&Starten&ausschließlich durch Mitarbeiter, per touch-Eingabe über eine Desktop-Verknüpfung\\ \hline
+AF-06&Starten&ausschließlich durch Mitarbeiter, per Touch-Eingabe über eine Desktop-Verknüpfung\\ \hline
 AF-07&Beenden&ausschließlich durch Mitarbeiter, durch Rechtsklick auf das Symbol in der Taskleiste -> Fenster schließen\\ \hline
 
 \end{tabularx}\\
@@ -287,7 +287,7 @@ Für die \Gls{TicTacToe}-Anwendung sind keine Daten dauerhaft zu speichern. \\
 \begin{tabularx}{\textwidth}{|X|X|X|} \hline
 NF-B1&Benutzung&\Gls{TicTacToe} soll nur mittels der GUI auf einem separaten Monitor genutzt werden.\\ \hline
 NF-E1&Effizienz&Die Nutzereingabe soll unmittelbar angezeigt werden\\ \hline
-NF-W1&Softwarewartung&Es ist langfristig vorgesehen noch weiter Spiele und ein Spiele verwaltendes Menü hinzuzufügen \\ \hline
+NF-W1&Softwarewartung&Es ist langfristig vorgesehen noch weitere Spiele und ein Spiele verwaltendes Menü hinzuzufügen. \\ \hline
 \end{tabularx}\\
 %%%%
 \section{Testung}
@@ -296,7 +296,7 @@ Funktionstests werden gemäß der Anwendungsfälle AF-04 und AF-05 durchgeführt
 %\tbf{\includegraphics[scale=0.5]{Anwendungsfalldiagramm.pdf}}
 %%%%
 \section{Monitoring/Support bei der Übergabe oder ähnliche Leistungen}
-Die Erstinstallation wird außerhalb der Geschäftszeiten erfolgen. Der Auftraggeber sowie dessen Angestellte werden einmalig in die Funktionsweise des Programms eingewiesen. Ein \Gls{Repository} wird zur Verfügung gestellt. Rufbereitschaft wochentags 8-17 Uhr per E-Mail ist gewährleistet. 
+Die Erstinstallation wird außerhalb der Geschäftszeiten des AG erfolgen. Der Auftraggeber sowie dessen Angestellte werden einmalig in die Funktionsweise des Programms eingewiesen. Ein \Gls{Repository} wird zur Verfügung gestellt. Rufbereitschaft wochentags 8-17 Uhr per E-Mail ist gewährleistet. 
 
 %%%%
 \section{Dokumentation}
@@ -306,7 +306,7 @@ Die Anwenderdokumentation wird als readme.pdf Datei in deutscher Sprache zur Ver
 Eine Dokumentation für Administratoren ist nicht vorgesehen.
 \subsection{Entwicklerdokumentation}
 Als Entwicklerdokumentation werden die mit javadoc generierten HTML-Dokumente im \Gls{Repository} zur Verfügung gestellt.
-\subsection{Weiter referenzierte Dokumente}
+\subsection{Weitere referenzierte Dokumente}
 Das Pflichtenheft wurde anhand des Lastenhefts "`Interaktives \Gls{TicTacToe} für Kinder"' erstellt. Lastenheft, Pflichtenheft und die Anwenderdokumentation befinden sich im \Gls{Repository}.
 %%%%
 \newpage
@@ -337,9 +337,9 @@ Meilensteine:\\\\
 %\begin{sidewaystable} 
 \begin{tabularx}{\textwidth}{|p{19mm}|p{5mm}|p{8mm}|X|X|X|X|X|X|X|X|} \hline
 \textbf{Indikator}& &\textbf{Kick-Off}&\textbf{Projekt\-plan u. Pflichtenheft}&\textbf{Analyse und Entwurf}&\textbf{Proto\-typ}&\textbf{Funk\-tions\-test}&\textbf{Release}&\textbf{Auslie\-ferung}& \textbf{Funk\-tions\-test 2}&\textbf{Ver\-trags\-abwick\-lung}\\ \hline
-\textbf{Pflichten\-heft}	&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
+\textbf{Pflichten\-heft}	&Soll&&&Fehlerkorrektur nach Korrektur von Praktikumsleiter&&&&&&\\ \hline &Ist&&&Ist korrgiert&&&&&&\\ \hline
 \textbf{Umgebung}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Diagramme}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
+\textbf{Diagramme}		&Soll&Korrekte UML&&Unnötige Elemente entfernen&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
 \textbf{Quellcode}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
 \textbf{Verhältnis}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
 \textbf{Tests}			&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
