@@ -60,7 +60,10 @@ public class Driver extends Frame {
 
 	public void showMenu() {
 		cl.show(this, "menu");
-		//System.out.println(this.toString());
+		
+		//cl.next(this);
+		System.out.println(this.toString());
+		System.out.println(cl.toString());
 	}
 
 	public void showRegeln() {

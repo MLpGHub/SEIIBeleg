@@ -9,6 +9,8 @@
   * Robert Siedler
   * Patrick Creutzburg
 
+## temporäre Notizen für Homeoffice
+* Emanuel: 30.4., 2.5h, Beginn Umbau auf Grafiken, Quick-Fix "Sieg-Bug"
 
 ## Dokumentation git Updates
 

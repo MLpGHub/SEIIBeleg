@@ -2,13 +2,14 @@ package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Spiel extends InfoScreen { //extends Panel
-	private Button[][] field;
+public class Spiel extends InfoScreen {
+	private Button[][] fieldb;
+	private int[][] field;
 	private boolean state;
 	private ActionListener al;
 
 	public Spiel(Driver driver) {
-		super(driver);
+		super(driver, driver.getToolkit().getImage("src/main/resources/spielen.png"));
 
 		state = false;
 		al = new ActionListener(){
@@ -22,49 +23,75 @@ public class Spiel extends InfoScreen { //extends Panel
 			}
 		};
 
-		this.setFont(new Font("DejaVu Sans", Font.PLAIN, 20));
+		//this.setFont(new Font("DejaVu Sans", Font.PLAIN, 20));
 
-		field = new Button[3][3];
+		fieldb = new Button[3][3];
+		
+		field = new int[3][3];
+		clearField();
 
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				field[i][j] = new Button();
-				System.out.println(field[i][j].getLabel());
-				field[i][j].addActionListener(al);
-				field[i][j].setFocusable(false);
-				this.add(field[i][j]);
-				field[i][j].setBounds(100+j*110, 100+i*60, 100, 50);
+				fieldb[i][j] = new Button();
+				System.out.println(fieldb[i][j].getLabel());
+				fieldb[i][j].addActionListener(al);
+				fieldb[i][j].setFocusable(false);
+				this.add(fieldb[i][j]);
+				fieldb[i][j].setBounds(100+j*110, 100+i*60, 100, 50);
 			}
 		}
-  }
+	}
 
+	public void clearField() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				field[i][j] = 0;
+			}
+		}
+	}
+	
 	public void validate() {
 		char c = ' ';
+		int checked = 0;
 		boolean[] checks = new boolean[8];
-		checks[0] = field[0][0].getLabel() != "" && field[0][0].getLabel() == field[0][1].getLabel() && field[0][0].getLabel() == field[0][2].getLabel();
-		checks[1] = field[0][0].getLabel() != "" && field[0][0].getLabel() == field[1][0].getLabel() && field[0][0].getLabel() == field[2][0].getLabel();
-		checks[2] = field[0][0].getLabel() != "" && field[0][0].getLabel() == field[1][1].getLabel() && field[0][0].getLabel() == field[2][2].getLabel();
-		checks[3] = field[0][1].getLabel() != "" && field[0][1].getLabel() == field[1][1].getLabel() && field[0][1].getLabel() == field[2][1].getLabel();
-		checks[4] = field[0][2].getLabel() != "" && field[0][2].getLabel() == field[1][2].getLabel() && field[0][2].getLabel() == field[2][2].getLabel();
-		checks[5] = field[1][0].getLabel() != "" && field[1][0].getLabel() == field[1][1].getLabel() && field[1][0].getLabel() == field[1][2].getLabel();
-		checks[6] = field[2][0].getLabel() != "" && field[2][0].getLabel() == field[2][1].getLabel() && field[2][0].getLabel() == field[2][2].getLabel();
-		checks[7] = field[2][0].getLabel() != "" && field[2][0].getLabel() == field[1][1].getLabel() && field[2][0].getLabel() == field[0][2].getLabel();
-
+		checks[0] = fieldb[0][0].getLabel() != "" && fieldb[0][0].getLabel() == fieldb[0][1].getLabel() && fieldb[0][0].getLabel() == fieldb[0][2].getLabel();
+		checks[1] = fieldb[0][0].getLabel() != "" && fieldb[0][0].getLabel() == fieldb[1][0].getLabel() && fieldb[0][0].getLabel() == fieldb[2][0].getLabel();
+		checks[2] = fieldb[0][0].getLabel() != "" && fieldb[0][0].getLabel() == fieldb[1][1].getLabel() && fieldb[0][0].getLabel() == fieldb[2][2].getLabel();
+		checks[3] = fieldb[0][1].getLabel() != "" && fieldb[0][1].getLabel() == fieldb[1][1].getLabel() && fieldb[0][1].getLabel() == fieldb[2][1].getLabel();
+		checks[4] = fieldb[0][2].getLabel() != "" && fieldb[0][2].getLabel() == fieldb[1][2].getLabel() && fieldb[0][2].getLabel() == fieldb[2][2].getLabel();
+		checks[5] = fieldb[1][0].getLabel() != "" && fieldb[1][0].getLabel() == fieldb[1][1].getLabel() && fieldb[1][0].getLabel() == fieldb[1][2].getLabel();
+		checks[6] = fieldb[2][0].getLabel() != "" && fieldb[2][0].getLabel() == fieldb[2][1].getLabel() && fieldb[2][0].getLabel() == fieldb[2][2].getLabel();
+		checks[7] = fieldb[2][0].getLabel() != "" && fieldb[2][0].getLabel() == fieldb[1][1].getLabel() && fieldb[2][0].getLabel() == fieldb[0][2].getLabel();
+	
 		if (checks[0] || checks[1] || checks[2]) {
-			c = field[0][0].getLabel().toCharArray()[0];
+			c = fieldb[0][0].getLabel().toCharArray()[0];
 		} else if (checks[3]) {
-			c = field[0][1].getLabel().toCharArray()[0];
+			c = fieldb[0][1].getLabel().toCharArray()[0];
 		} else if (checks[4]) {
-			c = field[0][2].getLabel().toCharArray()[0];
+			c = fieldb[0][2].getLabel().toCharArray()[0];
 		} else if (checks[5]) {
-			c = field[1][0].getLabel().toCharArray()[0];
+			c = fieldb[1][0].getLabel().toCharArray()[0];
 		} else if (checks[6] || checks[7]) {
-			c = field[2][0].getLabel().toCharArray()[0];
+			c = fieldb[2][0].getLabel().toCharArray()[0];
 		}
-
-		if (c == ' ') {
+	
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				if (fieldb[i][j].getLabel() != "") {
+					checked++;
+				}
+			}
+		}
+		
+		if (checked == 9) {
+			fieldb[0][0].setLabel(""); //clear fieldb
+			clearField();
+			driver.showSieg("Unentschieden!");
+		} else if (c == ' ') {
 			return;
 		} else {
+			fieldb[0][0].setLabel(""); //clear fieldb
+			clearField();
 			driver.showSieg(""+c+ " hat gewonnen!"); //getDriver()
 		}
 	}
