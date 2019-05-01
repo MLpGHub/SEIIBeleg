@@ -31,8 +31,7 @@ public class Infos extends InfoScreen {
 	
 	@Override
 	public void paint(Graphics g) {
-		paintBackground(g);
-		paintBackButton(g);
+		super.paint(g);
 		paintTxt(g);
 	}
 	

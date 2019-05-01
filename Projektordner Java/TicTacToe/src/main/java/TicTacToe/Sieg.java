@@ -34,8 +34,7 @@ public class Sieg extends InfoScreen {
 
   @Override
   public void paint(Graphics g) {
-	  paintBackground(g);
-	  paintBackButton(g);
+	  super.paint(g);
 	  paintTxt(g);
 	  
 	  //this.setFont(new Font("DejaVu Sans", Font.BOLD, 40));

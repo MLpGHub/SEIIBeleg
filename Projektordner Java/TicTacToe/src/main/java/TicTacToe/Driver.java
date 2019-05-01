@@ -62,8 +62,8 @@ public class Driver extends Frame {
 		cl.show(this, "menu");
 		
 		//cl.next(this);
-		System.out.println(this.toString());
-		System.out.println(cl.toString());
+		//System.out.println(this.toString());
+		//System.out.println(cl.toString());
 	}
 
 	public void showRegeln() {
