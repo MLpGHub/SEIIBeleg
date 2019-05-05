@@ -9,10 +9,10 @@ public class Sieg extends InfoScreen {
   private Rectangle txtDim;
   
   public Sieg(Driver driver) {
-	super(driver, driver.getToolkit().getImage("src/main/resources/fantasie.jpg"));
+	super(driver, driver.getToolkit().getImage("src/main/resources/hintergrund.jpg"));
 	text = "";
 	  
-	txt = this.getToolkit().getImage("src/main/resources/regelnTxt.png");
+	txt = this.getToolkit().getImage("src/main/resources/old/regelnTxt.png");
 	MediaTracker m = new MediaTracker(this);
 	m.addImage(txt, 1);
 	try {
@@ -37,8 +37,7 @@ public class Sieg extends InfoScreen {
 	  super.paint(g);
 	  paintTxt(g);
 	  
-	  //this.setFont(new Font("DejaVu Sans", Font.BOLD, 40));
-	  g.drawString(text, 100, 100);
+	  //g.drawString(text, 100, 100);
   }
 
   public void paintTxt(Graphics g) {

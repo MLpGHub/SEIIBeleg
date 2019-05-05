@@ -26,12 +26,15 @@ public class Driver extends Frame {
 		this.setLayout(cl);
 
 		//make Frame fullscreen
-		this.setResizable(false); //necessary?
+		this.setResizable(false);
 		this.setUndecorated(true);
 		this.setSize(Toolkit.getDefaultToolkit().getScreenSize()); 
 		
-		//just needed for Linux
-		//gd.setFullScreenWindow(this);
+		//needed? we just develop for windows...
+		String os = System.getProperty("os.name");
+		if (os == "Linux") {
+			gd.setFullScreenWindow(this);
+		}
 
 		this.addWindowListener(new WindowAdapter(){
 			public void windowClosing(WindowEvent e){
@@ -60,10 +63,6 @@ public class Driver extends Frame {
 
 	public void showMenu() {
 		cl.show(this, "menu");
-		
-		//cl.next(this);
-		//System.out.println(this.toString());
-		//System.out.println(cl.toString());
 	}
 
 	public void showRegeln() {

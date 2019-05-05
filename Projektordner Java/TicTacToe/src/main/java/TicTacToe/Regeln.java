@@ -7,9 +7,9 @@ public class Regeln extends InfoScreen {
 	private Rectangle txtDim;
 	
 	public Regeln(Driver driver) {
-		super(driver, driver.getToolkit().getImage("src/main/resources/regeln.png"));
+		super(driver, driver.getToolkit().getImage("src/main/resources/hintergrund.jpg"));
 		
-		txt = this.getToolkit().getImage("src/main/resources/regelnTxt.png");
+		txt = this.getToolkit().getImage("src/main/resources/old/regelnTxt.png");
 		MediaTracker m = new MediaTracker(this);
 		m.addImage(txt, 1);
 		try {

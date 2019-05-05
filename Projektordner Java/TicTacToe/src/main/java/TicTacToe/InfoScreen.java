@@ -2,11 +2,10 @@ package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 
-//parent class for Regeln, Infos and maybe also Sieg
+//Superklasse für Spiel, Regeln, Infos und Sieg
 
 public abstract class InfoScreen extends Panel {
   protected Driver driver;
-  //protected Button back;
   protected Image background;
   protected Image backButton;
   protected Rectangle backDimension;
@@ -16,7 +15,7 @@ public abstract class InfoScreen extends Panel {
     this.setLayout(null);
 
     this.background = background;
-    this.backButton = this.getToolkit().getImage("src/main/resources/ZurückButton.png");
+    this.backButton = this.getToolkit().getImage("src/main/resources/ingamebutton_zurueck.jpg");
     
     MediaTracker m = new MediaTracker(this);
     m.addImage(this.background, 1);
@@ -50,14 +49,10 @@ public abstract class InfoScreen extends Panel {
     		}
     		 */
     	}});
-    
   }
   
   @Override
   public void paint(Graphics g) {
-	  //Dimension d = this.getPreferredSize();
-	  
-	  
 	  paintBackground(g);
 	  paintBackButton(g);
   }

@@ -11,9 +11,9 @@ public class Infos extends InfoScreen {
 	private Rectangle txtDim;
 	
 	public Infos(Driver driver) {
-		super(driver, driver.getToolkit().getImage("src/main/resources/infos.png"));
+		super(driver, driver.getToolkit().getImage("src/main/resources/hintergrund.jpg"));
 		
-		txt = this.getToolkit().getImage("src/main/resources/regelnTxt.png"); //muss noch geändert werden!
+		txt = this.getToolkit().getImage("src/main/resources/old/regelnTxt.png");
 		MediaTracker m = new MediaTracker(this);
 		m.addImage(txt, 1);
 		try {

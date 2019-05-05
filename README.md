@@ -12,6 +12,7 @@
 ## temporäre Notizen für Homeoffice
 * Emanuel: 30.4., 2.5h, Beginn Umbau auf Grafiken, Quick-Fix "Sieg-Bug"
 * Emanuel: 1.5., 1.5h, Umbau Spiel-Klasse auf Grafiken erledigt - Buttons noch vorhanden
+* Emanuel: 5.5., 1h, finale Grafiken eingepflegt
 
 ## Dokumentation git Updates
 

@@ -20,10 +20,10 @@ public class Menu extends Panel {
 		this.setLayout(null);
 		this.setFont(new Font("DejaVu Sans Mono", Font.PLAIN, 30));
 
-		this.img = this.getToolkit().getImage("src/main/resources/menu.png");
-		this.start = this.getToolkit().getImage("src/main/resources/StartenButton.png");
-		this.regeln = this.getToolkit().getImage("src/main/resources/RegelnButton.png");
-		this.infos = this.getToolkit().getImage("src/main/resources/InfosButton.png");
+		this.img = this.getToolkit().getImage("src/main/resources/hintergrund_menue.jpg");
+		this.start = this.getToolkit().getImage("src/main/resources/menuebutton_start.jpg");
+		this.regeln = this.getToolkit().getImage("src/main/resources/menuebutton_regeln.jpg");
+		this.infos = this.getToolkit().getImage("src/main/resources/menuebutton_info.jpg");
 		MediaTracker mt = new MediaTracker(this);
 		mt.addImage(img, 1);
 		mt.addImage(start, 2);
@@ -36,22 +36,24 @@ public class Menu extends Panel {
 		}
 
 		
-		double factor = 2/3.;
+		//Scaling for the buttons, just legacy code
+		double factor = 1; //2/3.
 	    Dimension d = driver.getSize();
 	    
 	    int sx = (int)(start.getWidth(this) * factor);
 		int sy = (int)(start.getHeight(this) * factor);
-	    startDim = new Rectangle((d.width - sx) / 2, 100, sx, sy);
+	    startDim = new Rectangle((d.width - sx) / 2, 520, sx, sy);
 		
 	    int rx = (int)(regeln.getWidth(this) * factor);
 		int ry = (int)(regeln.getHeight(this) * factor);
-	    regelnDim = new Rectangle((d.width - rx) / 2, 400, rx, ry);
+	    regelnDim = new Rectangle((d.width - rx) / 2, 685, rx, ry);
 	    
 	    int ix = (int)(infos.getWidth(this) * factor);
 		int iy = (int)(infos.getHeight(this) * factor);
-	    infosDim = new Rectangle((d.width - ix) / 2, 700, ix, iy);
+	    infosDim = new Rectangle((d.width - ix) / 2, 850, ix, iy);
 	    
 		
+	    //Eventhandler for the buttons
 	    this.addMouseListener(new MouseAdapter() {
 	    	public void mouseClicked(MouseEvent e) {
 	    		Point p = e.getPoint();
@@ -67,14 +69,9 @@ public class Menu extends Panel {
 	    			&& (p.y >= infosDim.y) && (p.y <= infosDim.y + infosDim.height)) { //Infos-Button
 	    			driver.showRegeln();
 	    		}
-	    		/*
-	    		if (p.x => minx && p.x <= maxx && p.y => miny && p.y <= maxy) {
-	    			//
-	    		}
-	    		 */
 	    	}});
-	    
 
+	    //tmp exit button
 		exit = new Button("Exit");
 		exit.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
@@ -91,9 +88,6 @@ public class Menu extends Panel {
 		paintStart(g);
 		paintRegeln(g);
 		paintInfos(g);
-		
-		//this.setFont(new Font("Comfortaa", Font.PLAIN, 30));
-		//g.drawString("TicTacToe", 100, 50);
 	}
 	
 	public void paintBackground(Graphics g) {
