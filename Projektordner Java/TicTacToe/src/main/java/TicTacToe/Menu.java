@@ -13,8 +13,6 @@ public class Menu extends Panel {
 	private Rectangle regelnDim;
 	private Rectangle infosDim;
 
-	private Button exit; //temporary exit button
-
 	public Menu(Driver driver) {
 		this.driver = driver;
 		this.setLayout(null);
@@ -67,19 +65,9 @@ public class Menu extends Panel {
 	    		}
 	    		if ((p.x >= infosDim.x) && (p.x <= infosDim.x +infosDim.width) 
 	    			&& (p.y >= infosDim.y) && (p.y <= infosDim.y + infosDim.height)) { //Infos-Button
-	    			driver.showRegeln();
+	    			driver.showInfos();
 	    		}
 	    	}});
-
-	    //tmp exit button
-		exit = new Button("Exit");
-		exit.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent e){
-				driver.shutdown();
-			}});
-
-		this.add(exit);
-		exit.setBounds(100, 900, 200, 50);
 	}
 
 	@Override

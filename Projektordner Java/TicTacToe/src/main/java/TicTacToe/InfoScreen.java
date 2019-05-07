@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 //Superklasse für Spiel, Regeln, Infos und Sieg
 
-public abstract class InfoScreen extends Panel {
+public class InfoScreen extends Panel {
   protected Driver driver;
   protected Image background;
   protected Image backButton;
@@ -26,10 +26,8 @@ public abstract class InfoScreen extends Panel {
     	System.out.println(e);
     }
     
-    
-    double factor = 2/3.;
-    Dimension d = this.getPreferredSize();
-    d = driver.getSize();
+    double factor = 1; //2/3.
+    Dimension d = driver.getSize();
     int margin = 50;
     
     int bx = (int)(backButton.getWidth(this) * factor);
@@ -49,6 +47,7 @@ public abstract class InfoScreen extends Panel {
     		}
     		 */
     	}});
+    //background = background.getScaledInstance(d.width, d.height, 0);
   }
   
   @Override

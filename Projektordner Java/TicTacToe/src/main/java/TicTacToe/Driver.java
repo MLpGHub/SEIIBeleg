@@ -12,8 +12,8 @@ public class Driver extends Frame {
 	private CardLayout cl;
 
 	private Menu menu;
-	private Regeln regeln;
-	private Infos infos;
+	private InfoScreen regeln;
+	private InfoScreen infos;
 	private Spiel spiel;
 	private Sieg sieg;
 
@@ -28,7 +28,7 @@ public class Driver extends Frame {
 		//make Frame fullscreen
 		this.setResizable(false);
 		this.setUndecorated(true);
-		this.setSize(Toolkit.getDefaultToolkit().getScreenSize()); 
+		this.setSize(Toolkit.getDefaultToolkit().getScreenSize());
 		
 		//needed? we just develop for windows...
 		String os = System.getProperty("os.name");
@@ -42,8 +42,8 @@ public class Driver extends Frame {
 			}});
 
 		menu = new Menu(this);
-		regeln = new Regeln(this);
-		infos = new Infos(this);
+		regeln = new InfoScreen(this, this.getToolkit().getImage("src/main/resources/regeln.jpg"));
+		infos = new InfoScreen(this, this.getToolkit().getImage("src/main/resources/info.jpg"));
 		spiel = new Spiel(this);
 		sieg = new Sieg(this);
 
@@ -62,6 +62,7 @@ public class Driver extends Frame {
 	}
 
 	public void showMenu() {
+		spiel.clearField();
 		cl.show(this, "menu");
 	}
 
@@ -77,8 +78,8 @@ public class Driver extends Frame {
 		cl.show(this, "spiel");
 	}
 
-	public void showSieg(String s) {
-		sieg.setText(s);
+	public void showSieg(int s) {
+		sieg.setSieger(s);
 		cl.show(this, "sieg");
 	}
 

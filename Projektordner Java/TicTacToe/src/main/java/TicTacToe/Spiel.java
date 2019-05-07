@@ -81,10 +81,10 @@ public class Spiel extends InfoScreen {
 		for (int i = 0; i < 8; i++) {
 			if (calculations[i] == 3) {
 				clearField();
-				driver.showSieg("Spieler 1 hat gewonnen!");
+				driver.showSieg(1);
 			} else if (calculations[i] == -3) {
 				clearField();
-				driver.showSieg("Spieler 2 hat gewonnen!");
+				driver.showSieg(-1);
 			}
 		}
 		
@@ -98,7 +98,7 @@ public class Spiel extends InfoScreen {
 		}
 		if (checked == 9) {
 			clearField();
-			driver.showSieg("Unentschieden!");
+			driver.showSieg(0);
 		}
 	}
 	
