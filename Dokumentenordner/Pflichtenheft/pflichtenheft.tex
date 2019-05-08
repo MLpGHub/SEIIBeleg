@@ -177,7 +177,7 @@ Die \Gls{TicTacToe}-Anwendung dient dem förderlichem Umgang mit Technik bei Kin
 Benutzt wird die Anwendung von Patienten bzw. Besuchern und Angestellten der Kinderarztpraxis Dr. med. Lasse Niessen. Dabei werden Kinder und Eltern die Hauptrolle einnehmen. Die Angestellten der Kinderarztpraxis sind für das Starten und Beenden der Anwendung zuständig. Weitere Rollen - wie beispielsweise eine Administratorrolle - treten nicht auf.
 \subsection{Produktumgebung}
 Das System benötigt mindestens eine installierte Java Runtime ab Java-Version 1.8. Um mit wenig Aufwand starten zu können, ist der Bin-Ordner der Javaumgebung in der globalen Pfad-Variable des Betriebssystems abzulegen.
-Hardwareanforderungen bestehen in dem Touchscreen, welcher mit einem Bildschirm verbunden sein muss. Dieser ist bereits vorhanden.
+Hardwarederungen bestehen in dem Touchscreen, welcher mit einem Bildschirm verbunden sein muss. Dieser ist bereits vorhanden.
 \subsubsection{Architektur}
 Die verwendete Architektur ist ein 64bit-Windows-10-Betriebssystem.
 \subsection{Betriebsbedingungen}
@@ -195,8 +195,9 @@ AF-04&Testung 1&Es wird zunächst ein einfacher Funktionstest für den Anwendung
 AF-05&Testung 2&Im Einsatz soll in der ersten Woche die Wirkung auf die Kinder durch das Personal überprüft werden. Bei Fehlfunktion beziehungsweise schlechter Annahme wird eine Überarbeitung angestrebt.\\ \hline
 AF-06&Starten&ausschließlich durch Mitarbeiter, per Touch-Eingabe über eine Desktop-Verknüpfung\\ \hline
 AF-07&Beenden&ausschließlich durch Mitarbeiter, durch Rechtsklick auf das Symbol in der Taskleiste -> Fenster schließen\\ \hline
+AF-08&Auflösung&Die Auflösung wird im 16:9 Format und mit 1920x1080 Pixeln realisiert und dafür optimiert.\\ \hline
+\end{tabularx}\\\\
 
-\end{tabularx}\\
 \subsubsection{Aktivitäten mit Benutzerschnittstelle (UI)}
 \begin{tabularx}{\textwidth}{|l|X|} \hline
 Anwendungsfall ID&AF-01\\ \hline
@@ -207,7 +208,7 @@ Auslösendes Ereignis&Programmstart\\ \hline
 Nachbedingung Erfolg&Fenster öffnet sich\\ \hline
 Nachbedingung Fehlschlag&Programm konnte nicht gestartet werden\\ \hline
 Ablauf&- Doppelklick auf ausführbare Datei\\&- Ausgabe des Fensters erfolgt \\ \hline
-Benutzerschnittstelle&Verknüpfung auf dem Desktop\\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Beenden.pdf} \\ \hline
 \end{tabularx}\\
 
 \begin{tabularx}{\textwidth}{|l|X|} \hline
@@ -219,7 +220,7 @@ Auslösendes Ereignis&Programmstart oder Touch-Eingabe auf einen "`zurück zum M
 Nachbedingung Erfolg&Ausgabe des Menüs erfolgt auf Bildschirm\\ \hline
 Nachbedingung Fehlschlag& \\ \hline
 Ablauf&- Programm wurde gestartet oder Touch-Eingabe auf einen "`zurück zum Menü"'-\Glspl{Button}\\&- Ausgabe Menü erfolgt \\ \hline
-Benutzerschnittstelle& \\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Menu.pdf} \\ \hline
 \end{tabularx}\\
 
 \begin{tabularx}{\textwidth}{|l|X|} \hline
@@ -231,7 +232,7 @@ Auslösendes Ereignis&Touch-Eingabe auf den "`Regeln"'-\Gls{Button}\\ \hline
 Nachbedingung Erfolg&Ausgabe der Regeln erfolgt auf Bildschirm\\ \hline
 Nachbedingung Fehlschlag&Menü wird weiterhin angezeigt\\ \hline
 Ablauf&- Eingabe auf den "`Regeln"'-\Gls{Button}\\&- Regeln werden angezeigt\\ \hline
-Benutzerschnittstelle& \\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Regeln.pdf}\\ \hline
 \end{tabularx}\\
 
 \begin{tabularx}{\textwidth}{|l|X|} \hline
@@ -243,7 +244,8 @@ Auslösendes Ereignis&Touch-Eingabe auf den "`Infos"'-\Gls{Button}\\ \hline
 Nachbedingung Erfolg&Ausgabe der Informationen erfolgt auf Bildschirm\\ \hline
 Nachbedingung Fehlschlag&Menü wird weiterhin angezeigt\\ \hline
 Ablauf&- Eingabe auf den "`Infos"'-\Gls{Button}\\&- Infos werden angezeigt\\ \hline
-Benutzerschnittstelle&\\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Info.pdf}
+\\ \hline
 \end{tabularx}\\
 
 \begin{tabularx}{\textwidth}{|l|X|} \hline
@@ -255,7 +257,7 @@ Auslösendes Ereignis&Touch-Eingabe auf den "`Spielen"'-\Gls{Button}\\ \hline
 Nachbedingung Erfolg&Ausgabe des Spielfelds erfolgt auf Bildschirm\\ \hline
 Nachbedingung Fehlschlag&Menü wird weiterhin angezeigt\\ \hline
 Ablauf&- Eingabe auf den "`Spielen"'-\Gls{Button}\\&- Spielfeld wird angezeigt\\&- Spieler tätigt Eingabe\\ \hline
-Benutzerschnittstelle&\\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Spielen.pdf}\\ \hline
 \end{tabularx}\\
 
 \begin{tabularx}{\textwidth}{|l|X|} \hline
@@ -267,7 +269,7 @@ Auslösendes Ereignis&Tasteneingabe <ALT>+<F4> oder Rechtsklick auf \Gls{Icon} i
 Nachbedingung Erfolg&Fenster wird geschlossen\\ \hline
 Nachbedingung Fehlschlag&Fenster schließt sich nicht\\ \hline
 Ablauf&- Tasteneingabe <ALT>+<F4>\\&- Fenster wird geschlossen\\ \hline
-Benutzerschnittstelle&\\ \hline
+Benutzerschnittstelle&\includegraphics[scale=0.33]{Beenden.pdf}\\ \hline
 \end{tabularx}\\
 
 \newpage
@@ -328,29 +330,6 @@ Meilensteine:\\\\
 
 \newpage
 
-\newgeometry{margin=15mm}
-
-%Die Fortschrittskontrolle erfolgt anhand folgender Indikatoren:
-\begin{footnotesize}
-
-%\begin{landscape}
-%\begin{sidewaystable} 
-\begin{tabularx}{\textwidth}{|p{19mm}|p{5mm}|p{8mm}|X|X|X|X|X|X|X|X|} \hline
-\textbf{Indikator}& &\textbf{Kick-Off}&\textbf{Projekt\-plan u. Pflichtenheft}&\textbf{Analyse und Entwurf}&\textbf{Proto\-typ}&\textbf{Funk\-tions\-test}&\textbf{Release}&\textbf{Auslie\-ferung}& \textbf{Funk\-tions\-test 2}&\textbf{Ver\-trags\-abwick\-lung}\\ \hline
-\textbf{Pflichten\-heft}	&Soll&&&Fehlerkorrektur nach Korrektur von Praktikumsleiter&&&&&&\\ \hline &Ist&&&Ist korrgiert&&&&&&\\ \hline
-\textbf{Umgebung}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Diagramme}		&Soll&Korrekte UML&&Unnötige Elemente entfernen&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Quellcode}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Verhältnis}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Tests}			&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Anwender\-doku}	&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Entwickler\-doku}	&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\textbf{Release}		&Soll&&&&&&&&&\\ \hline &Ist&&&&&&&&&\\ \hline
-\end{tabularx}\\
-%\end{sidewaystable} 
-%\end{landscape}
-
-\end{footnotesize}
 
 \restoregeometry
 
