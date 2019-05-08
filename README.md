@@ -32,6 +32,11 @@
 		* Patrick: Obfuscator
 * Patrick, Emanuel: 7.5., 1h, UML-Diagramme aktualisiert
 
+##8.5. Praktikum
+Robert/Patrik: Screebnshots, Anwenderdoku
+Micha: Pflichtenheft vfertig mit Screenshots & Fortschrittstabelle
+Emanuel: Anderen Gruppen geholfen
+
 ## Dokumentation git Updates
 
 * falls immer **derselbe lokale Ordner** für das Repo genutzt wird, aktuelle Daten holen mit `$ git pull <url>`
