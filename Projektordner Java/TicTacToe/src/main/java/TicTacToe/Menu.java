@@ -2,6 +2,11 @@ package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 
+/**
+ * Klasse des Spielmenüs
+ * @author s76954
+ *
+ */
 public class Menu extends Panel {
 	private Driver driver;
 	private Image img;
@@ -13,10 +18,13 @@ public class Menu extends Panel {
 	private Rectangle regelnDim;
 	private Rectangle infosDim;
 
+	/**
+	 * Initialisiert das Menü samt Grafiken
+	 * @param driver Referenz zum übergeordneten Treiber
+	 */
 	public Menu(Driver driver) {
 		this.driver = driver;
 		this.setLayout(null);
-		this.setFont(new Font("DejaVu Sans Mono", Font.PLAIN, 30));
 
 		this.img = this.getToolkit().getImage("src/main/resources/hintergrund_menue.jpg");
 		this.start = this.getToolkit().getImage("src/main/resources/menuebutton_start.jpg");
@@ -35,7 +43,7 @@ public class Menu extends Panel {
 
 		
 		//Scaling for the buttons, just legacy code
-		double factor = 1; //2/3.
+		double factor = 1;
 	    Dimension d = driver.getSize();
 	    
 	    int sx = (int)(start.getWidth(this) * factor);
@@ -70,6 +78,9 @@ public class Menu extends Panel {
 	    	}});
 	}
 
+	/**
+	 * Zeichnet die Menü-Anzeige
+	 */
 	@Override
 	public void paint(Graphics g) {
 		paintBackground(g);
@@ -78,19 +89,35 @@ public class Menu extends Panel {
 		paintInfos(g);
 	}
 	
+	/**
+	 * Zeichnen des Hintergrundes
+	 * @param g Grafik-Kontext
+	 */
 	public void paintBackground(Graphics g) {
 		Dimension d = this.getPreferredSize();
 		g.drawImage(img, 0, 0, d.width, d.height, this);
 	}
 	
+	/**
+	 * Zeichnen des Start-Buttons
+	 * @param g Grafik-Kontext
+	 */
 	public void paintStart(Graphics g) {
 		g.drawImage(start, startDim.x, startDim.y, startDim.width, startDim.height, this);
 	}
 	
+	/**
+	 * Zeichnen des Regeln-Buttons
+	 * @param g Grafik-Kontext
+	 */
 	public void paintRegeln(Graphics g) {
 		g.drawImage(regeln, regelnDim.x, regelnDim.y, regelnDim.width, regelnDim.height, this);
 	}
 	
+	/**
+	 * Zeichnen des Info-Buttons
+	 * @param g Grafik-Kontext
+	 */
 	public void paintInfos(Graphics g) {
 		g.drawImage(infos, infosDim.x, infosDim.y, infosDim.width, infosDim.height, this);
 	}

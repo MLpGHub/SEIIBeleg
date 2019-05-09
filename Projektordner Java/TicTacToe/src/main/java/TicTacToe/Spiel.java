@@ -2,6 +2,11 @@ package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 
+/**
+ * Spielklasse
+ * @author s76954
+ *
+ */
 public class Spiel extends InfoScreen {
 	private int[][] field;
 	private boolean state;
@@ -9,11 +14,15 @@ public class Spiel extends InfoScreen {
 	private Image o;
 	private Image x;
 
+	/**
+	 * Initialisierung samt Grafiken
+	 * @param driver Referenz des übergeordneten Treibers
+	 */
 	public Spiel(Driver driver) {
 		super(driver, driver.getToolkit().getImage("src/main/resources/spielfeld.jpg"));
 
-		o = this.getToolkit().getImage("src/main/resources/zeichen_O_ohne_hintergrund.png"); //zeichen_O_mit_hintergrund.jpg
-		x = this.getToolkit().getImage("src/main/resources/zeichen_X_ohne_hintergrund.png"); //zeichen_X_mit_hintergrund.jpg
+		o = this.getToolkit().getImage("src/main/resources/zeichen_O_ohne_hintergrund.png");
+		x = this.getToolkit().getImage("src/main/resources/zeichen_X_ohne_hintergrund.png");
 		
 		state = false;
 		
@@ -42,18 +51,18 @@ public class Spiel extends InfoScreen {
 				if (state) field[i][j] = 1;
 				else field[i][j] = -1;
 				
-				//draw Cell??
-				//quick and dirty...
-				repaint();
-				
 				state = !state;
 				validateField();
+				repaint();
 			}});
 		
 		field = new int[3][3];
 		clearField();
 	}
 
+	/**
+	 * Löschen des Spielfeldes
+	 */
 	public void clearField() {
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
@@ -62,6 +71,9 @@ public class Spiel extends InfoScreen {
 		}
 	}
 	
+	/**
+	 * Auswertung des Spielfeldes nach Bedingungen für Spielende
+	 */
 	public void validateField() {
 		int checked = 0;
 		int[] calculations = new int[8];
@@ -77,7 +89,7 @@ public class Spiel extends InfoScreen {
 		calculations[6] = field[0][0] + field[1][1] + field[2][2];
 		calculations[7] = field[2][0] + field[1][1] + field[0][2];
 		
-		//Hat jemand gewonnen?
+		//Gewinnbedingungen
 		for (int i = 0; i < 8; i++) {
 			if (calculations[i] == 3) {
 				clearField();
@@ -102,25 +114,25 @@ public class Spiel extends InfoScreen {
 		}
 	}
 	
+	/**
+	 * Zeichnet den Spiel-Bildschirm
+	 */
 	@Override
 	public void paint(Graphics g) {
 		super.paint(g);
 		int iEdge = 165;
+		int dif = cEdge - iEdge;
+		int dx = offX + dif / 2;
+		int dy = offY + dif / 2;
 		
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				//System.out.println("field[" + i + "][" + j + "]=" + field[i][j]);
 				if (field[i][j] == 1) {
 					g.setColor(Color.cyan);
-					//g.fillRect(offX + j * cEdge, offY + i * cEdge, cEdge, cEdge);
-					g.drawImage(o, offX + j * cEdge + 42, offY + i * cEdge + 42, iEdge, iEdge, this);
+					g.drawImage(o, dx + j * (iEdge + dif), dy + i * (iEdge + dif), iEdge, iEdge, this);
 				} else if (field[i][j] == -1) {
 					g.setColor(Color.orange);
-					//g.fillRect(offX + j * cEdge, offY + i * cEdge, cEdge, cEdge);
-					g.drawImage(x, offX + j * cEdge + 42, offY + i * cEdge + 42, iEdge, iEdge, this);
-				} else {
-					g.setColor(Color.black);
-					//g.drawRect(offX + j * cEdge, offY + i * cEdge, iEdge, iEdge);
+					g.drawImage(x, dx + j * (iEdge + dif), dy + i * (iEdge + dif), iEdge, iEdge, this);
 				}
 			}
 		}

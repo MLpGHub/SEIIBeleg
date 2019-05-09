@@ -2,6 +2,11 @@ package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
 
+/**
+ * Anzeige für das Spielergebnis
+ * @author s76954
+ *
+ */
 public class Sieg extends InfoScreen {
   private int sieger;
 
@@ -10,6 +15,10 @@ public class Sieg extends InfoScreen {
   private Image spieler2;
   private Rectangle iDim;
   
+  /**
+   * Initialsiert den Sieg-Bildschirm und lädt die benötigten Bilder
+   * @param driver Referenz zum übergeordneten Treiber
+   */
   public Sieg(Driver driver) {
 	super(driver, driver.getToolkit().getImage("src/main/resources/hintergrund.jpg"));
 	sieger = 0;
@@ -34,24 +43,32 @@ public class Sieg extends InfoScreen {
 	iDim = new Rectangle((d.width - dx) / 2, (d.height - dy) / 2, dx, dy);
   }
 
+  /**
+   * Setzt die Informationen zum Sieger
+   * @param s gewinnender Spieler
+   */
   public void setSieger(int s) {
     this.sieger = s;
   }
 
+  /**
+   * Zeichnen des Sieg-Bildschirms
+   */
   @Override
   public void paint(Graphics g) {
 	  super.paint(g);
 	  paintTxt(g);
-	  
-	  //g.drawString(text, 100, 100);
   }
 
+  /**
+   * Zeichnet die entsprechende Gewinn-Grafik
+   * @param g Grafik-Kontext
+   */
   public void paintTxt(Graphics g) {
 	  switch (sieger) {
 	  case 0: g.drawImage(unentschieden, iDim.x, iDim.y, this); break;
 	  case 1: g.drawImage(spieler1, iDim.x, iDim.y, this); break;
 	  case -1: g.drawImage(spieler2, iDim.x, iDim.y, this); break;
 	  }
-	  //g.drawImage(txt, txtDim.x, txtDim.y, txtDim.width, txtDim.height, this);
   }
 }

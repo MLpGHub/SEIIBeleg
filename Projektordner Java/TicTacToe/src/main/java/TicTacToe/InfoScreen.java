@@ -4,12 +4,22 @@ import java.awt.event.*;
 
 //Superklasse fÃ¼r Spiel, Regeln, Infos und Sieg
 
+/**
+ * Superklasse für Spiel und Sieg
+ * @author s76954
+ *
+ */
 public class InfoScreen extends Panel {
   protected Driver driver;
   protected Image background;
   protected Image backButton;
   protected Rectangle backDimension;
 
+  /**
+   * Initialisierung des InfoScreens
+   * @param driver Referenz des übergeordneten Treibers
+   * @param background Hintergrundbild
+   */
   public InfoScreen(Driver driver, Image background) {
     this.driver = driver;
     this.setLayout(null);
@@ -26,7 +36,7 @@ public class InfoScreen extends Panel {
     	System.out.println(e);
     }
     
-    double factor = 1; //2/3.
+    double factor = 1;
     Dimension d = driver.getSize();
     int margin = 50;
     
@@ -41,26 +51,31 @@ public class InfoScreen extends Panel {
     			&& (p.y >= backDimension.y) && (p.y <= backDimension.y + backDimension.height)) { //zurÃ¼ck-Button
     			driver.showMenu();
     		}
-    		/*
-    		if (p.x => minx && p.x <= maxx && p.y => miny && p.y <= maxy) {
-    			//
-    		}
-    		 */
     	}});
-    //background = background.getScaledInstance(d.width, d.height, 0);
   }
   
+  /**
+   * Zeichnen des InfoScreens
+   */
   @Override
   public void paint(Graphics g) {
 	  paintBackground(g);
 	  paintBackButton(g);
   }
   
+  /**
+   * Zeichnen des Hintergrundes
+   * @param g Grafik-Kontext
+   */
   public void paintBackground(Graphics g) {
 	  Dimension d = this.getPreferredSize();
 	  g.drawImage(background, 0, 0, d.width, d.height, this);
   }
   
+  /**
+   * Zeichnen des Zurück-Buttons
+   * @param g Grafik-Kontext
+   */
   public void paintBackButton(Graphics g) {
 	  g.drawImage(backButton,  backDimension.x,  backDimension.y, backDimension.width, backDimension.height, this);
   }
