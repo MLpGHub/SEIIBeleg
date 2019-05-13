@@ -31,6 +31,7 @@
 		* Micha: Gradle
 		* Patrick: Obfuscator
 * Patrick, Emanuel: 7.5., 1h, UML-Diagramme aktualisiert
+* Emanuel: 12.5., 1h, JavaDoc + Google Java Style Guide
 
 ##8.5. Praktikum
 Robert/Patrik: Screebnshots, Anwenderdoku
