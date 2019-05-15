@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.22)  11 MAY 2019 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.4.22)  15 MAY 2019 21:40
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -963,16 +963,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
-! Misplaced alignment tab character &.
-l.368 ...a: Pflichtenheft fertig mit Screenshots &
-                                                   Fortschrittstabelle
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 378--387
 
@@ -994,29 +984,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--392
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--412
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--412
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--412
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
 
  []
 
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
  (bericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 419.
 Package rerunfilecheck Info: File `bericht.out' has not changed.
 (rerunfilecheck)             Checksum: 059496E5F495AD9B4EE9CD75124C5EEE;912.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
  14633 strings out of 492946
@@ -1036,9 +1026,9 @@ LpTower\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\MLpTower\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
 0\eccc2074.pk><C:/Users/MLpTower/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb>
-Output written on bericht.pdf (13 pages, 124810 bytes).
+Output written on bericht.pdf (13 pages, 125898 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 400 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
