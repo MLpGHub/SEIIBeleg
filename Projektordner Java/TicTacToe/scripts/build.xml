@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<project name="TicTacToe" default="ant_build" basedir="..">
+<property name="jd_files" value="src/core/Driver.java, src/core/InfoScreen.java, src/core/Menu.java, src/core/Sieg.java, src/core/Spiel.java"/>
+	
+<target name="compile" description="compiles the project">
+	<javac srcdir="src" destdir="bin" includeAntRuntime="false" compiler="modern"/>
+	<javac srcdir="tests" destdir="bin" includeAntRuntime="false" compiler="modern">
+		<classpath path="lib/junit4.jar"></classpath>
+	</javac>
+</target>
+
+<target name="ant_build" depends="clean, compile">
+	<junit dir="bin" showoutput="yes" printsummary="yes" fork="yes" haltonfailure="no">
+		<classpath>
+			<fileset dir="lib" includes="**/*.jar"/>
+			<pathelement path="lib/junit4.jar:lib/hamcrest-all-1.3.jar"/>
+			<pathelement location="bin/core"/>
+		</classpath>
+		<formatter type="plain"/>
+		
+		<test name="TicTacToeTests"/>
+		<batchtest>
+            <fileset dir="tests/core">
+                <include name="**/*.java"/>
+            </fileset>
+        </batchtest>
+	</junit>
+	
+	<jar destfile="dist/TicTacToe.jar" basedir="bin">
+		<manifest>
+			<attribute name="Main-Class" value="TicTacToe.core.Driver.Main"/>
+		</manifest>
+	</jar>
+	
+	<javadoc packagenames="TicTacToe.core" sourcefiles="${jd_files}" destdir="doc" version="true" windowtitle="TicTacToe" author="true">
+		<doctitle><![CDATA[= TicTacToe =]]></doctitle>
+		<bottom><![CDATA[© 2019 Kleinprogramm GmbH]]></bottom>
+	</javadoc>
+</target>
+
+<target name="clean" description="clean up">
+	<delete includeemptydirs="true">
+		<fileset dir="bin" includes="**/*"/>
+	</delete>
+	<delete includeemptydirs="true">
+		<fileset dir="dist" includes="**/*"/>
+	</delete>
+	<delete includeemptydirs="true">
+		<fileset dir="doc" includes="**/*"/>
+	</delete>
+</target>
+</project>
