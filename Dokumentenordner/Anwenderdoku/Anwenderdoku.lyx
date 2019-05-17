@@ -1,0 +1,649 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Anwenderdokumentation
+\end_layout
+
+\begin_layout Title
+\begin_inset Quotes eld
+\end_inset
+
+TicTacToe
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Erste Schritte
+\end_layout
+
+\begin_layout Standard
+Die Anwendung kann mittels Doppelklick auf die .jar- oder .bat-Datei (siehe
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ErsteSchritte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) im mitgelieferten Ordner gestartet werden.
+ Um das Spiel auf dem Zweitbildschirm darzustellen wird empfohlen, den Bildschir
+m mittels der Tastenkombination WIN + P zu erweitern (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ErsteSchritte"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - unter Projizieren 
+\begin_inset Quotes eld
+\end_inset
+
+Erweitern
+\begin_inset Quotes erd
+\end_inset
+
+ wählen) und die Anwendung auf den zweiten Bildschrim zu legen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 000b.PNG
+	width 100text%
+	BoundingBox 0bp 0bp 1920bp 1080bp
+	groupId Erste Schritte
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ErsteSchritte"
+
+\end_inset
+
+Anwendung starten/ Zweitbildschirm einrichten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang danish
+Das
+\lang ngerman
+ Menü
+\end_layout
+
+\begin_layout Standard
+Nach Start der Anwendung befindet man sich im Hauptmenü des Spiels (siehe
+ Abb.
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Startmenü"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Durch Benutzen des 
+\begin_inset Quotes eld
+\end_inset
+
+Start
+\begin_inset Quotes erd
+\end_inset
+
+-Buttons gelangen Sie zum Spiel selbst.
+ Unter 
+\begin_inset Quotes eld
+\end_inset
+
+Regeln
+\begin_inset Quotes erd
+\end_inset
+
+ finden sie eine Anleitung über den Spielverlauf und das Regelwerk.
+ Durch Drücken auf den 
+\begin_inset Quotes eld
+\end_inset
+
+Info
+\begin_inset Quotes erd
+\end_inset
+
+-Button erhalten Sie nähere Informationen zum Produkt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 001.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Startmenü"
+
+\end_inset
+
+Startmenü
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Das Spiel
+\end_layout
+
+\begin_layout Subsection
+Aufbau
+\end_layout
+
+\begin_layout Standard
+TicTacToe wird auf einem quadratischen Spielfeld mit insgesamt 9 Flächen
+ (3×3) gespielt (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Spielfeld"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Es spielen pro Runde 2 Spieler, welche jeweils ein Spielsymbol (X oder
+ O) besitzen.
+ Das Spiel kann zu jedem Zeitpunkt über den 
+\begin_inset Quotes eld
+\end_inset
+
+Zurück
+\begin_inset Quotes erd
+\end_inset
+
+-Button verlassen werden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 004.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spielfeld"
+
+\end_inset
+
+Spielfeld
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Regeln
+\end_layout
+
+\begin_layout Standard
+Gewonnen hat der Spieler, der als Erstes eine waagerechte, senkrechte oder
+ diagonale Reihe auf dem Spielfeld mit seinen eigenen Symbolen füllen kann
+ (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Regeln"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Gelingt dies beiden Spielern nicht, bevor alle möglichen Flächen des Spielfelde
+s belegt sind, so endet das Spiel unentschieden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 003b.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Regeln"
+
+\end_inset
+
+Regeln
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Verlauf
+\end_layout
+
+\begin_layout Standard
+Um das erste Symbol zu setzen, berührt einer der beiden Spieler eine beliebige
+ Fläche des Spielfeldes (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spielzug"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Links).
+ Danach setzt der andere Spieler durch Drücken einer der übrigen Flächen
+ sein Symbol (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spielzug"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Mitte).
+ Beide Spieler wechseln sich Zug für Zug ab (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spielzug"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Rechts), bis entweder das Spielfeld vollständig gefüllt ist oder einer
+ der beiden Spieler gewonnen hat.
+ Eine entsprechende Nachricht (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ergebnis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) teilt das Ergebnis mit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 005-7.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spielzug"
+
+\end_inset
+
+Spielzüge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 008.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ergebnis"
+
+\end_inset
+
+Ergebnis (Bsp.
+ O gewinnt)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Anwendung beenden
+\end_layout
+
+\begin_layout Standard
+Die Anwendung besitzt keine Möglichkeit, sich von innen heraus zu beenden.
+ Nutzen Sie stattdessen bitte folgende Möglichkeiten:
+\end_layout
+
+\begin_layout Enumerate
+Innerhalb der Anwendung die Tastenkombination ALT + F4 drücken, dies schließt
+ die Anwendung.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Drücken Sie die WIN-Taste, um die Taskleiste einzublenden.
+ Navigieren sie mit der Maus über das Icon der Anwendung in der Taskleiste.
+ Öffnen Sie mit Rechtsklick das Kontext-Menü und schließen sie die Anwendung
+ mit dem Befehl 
+\begin_inset Quotes eld
+\end_inset
+
+Fenster schließen
+\begin_inset Quotes prd
+\end_inset
+
+ (siehe Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schließen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename 009b.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schließen"
+
+\end_inset
+
+Schließen über Taskleiste
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
