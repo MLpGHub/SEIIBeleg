@@ -1,6 +1,14 @@
 <?xml version="1.0" ?>
 <project name="TicTacToe" default="ant_build" basedir="..">
 <property name="jd_files" value="src/core/Driver.java, src/core/InfoScreen.java, src/core/Menu.java, src/core/Sieg.java, src/core/Spiel.java"/>
+
+<property name="pg_loc" location="lib/proguard/ant/task.properties"/>
+
+<taskdef name="proguard" classname="proguard.ant.ProGuardTask" classpath="lib/proguard.jar"/>
+	<!--
+	proguard              = proguard.ant.ProGuardTask
+	proguardconfiguration = proguard.ant.ConfigurationTask
+	-->
 	
 <target name="compile" description="compiles the project">
 	<javac srcdir="src" destdir="bin" includeAntRuntime="false" compiler="modern"/>
@@ -33,6 +41,8 @@
 			<attribute name="Build-By" value="s76954"/>
 		</manifest>
 	</jar>
+	
+	<proguard configuration="scripts/pg_config.pro"/>
 	
 	<javadoc packagenames="TicTacToe.core" sourcefiles="${jd_files}" destdir="doc" version="true" windowtitle="TicTacToe" author="true">
 		<doctitle><![CDATA[= TicTacToe =]]></doctitle>

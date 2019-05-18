@@ -33,6 +33,8 @@
 * Patrick, Emanuel: 7.5., 1h, UML-Diagramme aktualisiert
 * Emanuel: 12.5., 1h, JavaDoc + Google Java Style Guide
 * Emanuel: 16.5., 3h, JUnit-Tests + Ant
+* Emanuel: 18.5., 0.5h, Ant fertig
+* Emanuel: 18.5., ??h, ProGuard Task in Ant inkludiert
 
 ##8.5. Praktikum
 Robert/Patrik: Screebnshots, Anwenderdoku
