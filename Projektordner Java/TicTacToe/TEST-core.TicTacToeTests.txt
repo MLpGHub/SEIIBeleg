@@ -1,0 +1,7 @@
+Testsuite: core.TicTacToeTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 sec
+
+Testcase: driverScreenSizeTest took 0.155 sec
+Testcase: siegTest took 0.063 sec
+Testcase: infoScreenTest took 0.047 sec
+Testcase: spielTest took 0.036 sec
