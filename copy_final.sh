@@ -15,6 +15,7 @@ cp Dokumentenordner/Kalkulation/Kostenaufstellung_intern.pdf final
 cp Dokumentenordner/Kalkulation/Kalkulation_intern.pdf final
 cp Dokumentenordner/Pflichtenheft/pflichtenheft.pdf final/Pflichtenheft.pdf
 cp Dokumentenordner/projektbegleitender\ Bericht/bericht.pdf final/Projektbegleitender_Bericht.pdf
+#obfuscated jar file becomes the used TicTacToe.jar !
 cp Projektordner\ Java/TicTacToe/dist/TicTacToe_pg.jar final/TicTacToe.jar
 cp -r Projektordner\ Java/TicTacToe/doc final/JavaDoc
 cp -r Projektordner\ Prototyp/export final/Prototyp

@@ -1,4 +1,5 @@
 package core;
+
 import java.awt.CardLayout;
 import java.awt.Frame;
 import java.awt.GraphicsDevice;

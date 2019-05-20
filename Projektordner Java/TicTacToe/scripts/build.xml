@@ -17,11 +17,10 @@
 	</javac>
 </target>
 
-<target name="ant_build" depends="clean, compile">
+<target name="junit">
 	<junit dir="bin" showoutput="yes" printsummary="yes" fork="yes" haltonfailure="yes">
 		<classpath>
 			<fileset dir="lib" includes="**/*.jar"/>
-			<!--<pathelement path="lib/junit4.jar:lib/hamcrest-all-1.3.jar"/>-->
 			<pathelement location="bin"/>
 		</classpath>
 		<formatter type="plain"/>
@@ -32,22 +31,39 @@
             </fileset>
         </batchtest>
 	</junit>
+</target>
+
+<target name="javadoc_t">
+	<javadoc packagenames="TicTacToe.core" sourcefiles="${jd_files}" destdir="doc" version="true" windowtitle="TicTacToe" author="true">
+		<doctitle><![CDATA[= TicTacToe =]]></doctitle>
+		<bottom><![CDATA[© 2019 Kleinprogramm GmbH]]></bottom>
+	</javadoc>
+</target>
 	
-	<jar destfile="dist/TicTacToe.jar" basedir="bin">
-		<fileset dir="resources"/>
+<target name="distro">
+	<jar destfile="dist/TicTacToe.jar" basedir="bin" excludes="**/TicTacToeTests.class">
 		<manifest>
 			<attribute name="Manifest-Version" value="1.0"/>
 			<attribute name="Main-Class" value="core.Driver"/>
 			<attribute name="Build-By" value="s76954"/>
 		</manifest>
 	</jar>
-	
+</target>
+
+<target name="obfuscating">
 	<proguard configuration="scripts/pg_config.pro"/>
+</target>
 	
-	<javadoc packagenames="TicTacToe.core" sourcefiles="${jd_files}" destdir="doc" version="true" windowtitle="TicTacToe" author="true">
-		<doctitle><![CDATA[= TicTacToe =]]></doctitle>
-		<bottom><![CDATA[© 2019 Kleinprogramm GmbH]]></bottom>
-	</javadoc>
+<target name="ant_build" depends="clean, compile, junit">
+	<copy todir="dist/resources">
+		<fileset dir="resources" excludes="**/*.psd"/>
+	</copy>
+	
+	<antcall target="distro"/>
+	
+	<antcall target="obfuscating"/>
+	
+	<antcall target="javadoc_t"></antcall>
 </target>
 
 <target name="clean" description="clean up">
