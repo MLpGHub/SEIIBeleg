@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.29)  17 MAY 2019 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.29)  21 MAY 2019 12:05
 entering extended mode
 **./bericht.tex
 (bericht.tex
@@ -904,139 +904,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--291
+Underfull \hbox (badness 10000) in paragraph at lines 281--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--291
+Underfull \hbox (badness 10000) in paragraph at lines 281--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--291
+Underfull \hbox (badness 10000) in paragraph at lines 281--290
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--312
+Underfull \hbox (badness 10000) in paragraph at lines 302--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--312
+Underfull \hbox (badness 10000) in paragraph at lines 302--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--312
+Underfull \hbox (badness 10000) in paragraph at lines 302--311
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--330
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--341
+Underfull \hbox (badness 10000) in paragraph at lines 335--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--341
+Underfull \hbox (badness 10000) in paragraph at lines 335--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--341
+Underfull \hbox (badness 10000) in paragraph at lines 335--344
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--373
+Underfull \hbox (badness 10000) in paragraph at lines 367--376
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--425
+Underfull \hbox (badness 10000) in paragraph at lines 427--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--425
+Underfull \hbox (badness 10000) in paragraph at lines 427--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--425
+Underfull \hbox (badness 10000) in paragraph at lines 427--436
 
  []
 
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 429.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 429.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
  (bericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 429.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 429.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
 Package rerunfilecheck Info: File `bericht.out' has not changed.
 (rerunfilecheck)             Checksum: 679C6BD992ED749FBCAFF718C83F8368;971.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 429.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
  14640 strings out of 492897
@@ -1056,9 +1056,9 @@ LpLappi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\MLpLappi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
 0\eccc2074.pk><C:/Users/MLpLappi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb>
-Output written on bericht.pdf (14 pages, 126440 bytes).
+Output written on bericht.pdf (14 pages, 126292 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
+ 404 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
