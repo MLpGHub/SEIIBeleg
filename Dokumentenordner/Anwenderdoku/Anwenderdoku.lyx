@@ -97,8 +97,7 @@ Erste Schritte
 \end_layout
 
 \begin_layout Standard
-Die Anwendung kann mittels Doppelklick auf die .jar- oder .bat-Datei (siehe
- Abb.
+Die Anwendung kann mittels Doppelklick auf die .bat-Datei (siehe Abb.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -109,7 +108,7 @@ noprefix "false"
 
 \end_inset
 
-) im mitgelieferten Ordner gestartet werden.
+, Desktop) gestartet werden.
  Um das Spiel auf dem Zweitbildschirm darzustellen wird empfohlen, den Bildschir
 m mittels der Tastenkombination WIN + P zu erweitern (siehe Abb.
  
@@ -138,7 +137,7 @@ Erweitern
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
