@@ -1,0 +1,42 @@
+UTF-8
+no wildcard imports
+no line-wrapping at import statements
+imports: static in one block; non-static in one block
+ordering class contents: some logical order; overloads never split
+braces are used for if, else, for, do, while
+no line break before opening brace
+line break after opening brace
+line break before and after closing brace (excepted '} else {' e.g.)
+empty blocks: closing brace in new line
+indentation = 2 spaces
+one statement per line
+column limit = 100 chars (4.5.1)
+if continuation lines : +4 spaces
+single blank line always between consecutive members or initialzers of a class
+
+horizontal whitespace:
+if ()
+else {; } catch ()
+before curly brace
+any side of bunary or ternary operator
+after ,:; or ) of a cast
+both sides of //
+
+never horizontal alignment
+one variable per declaration
+vars declared when needed
+arrays: String[] args, not String args[]
+switch: default has to be present
+
+naming:
+classes upper camel case
+constants upper case
+methods and others lower camel case
+
+javadoc:
+/**
+*
+*/
+@param, @return, @throws
+minimum: present javadoc at public classes and public/protected members of classes
+optional for self-explanatory methods
