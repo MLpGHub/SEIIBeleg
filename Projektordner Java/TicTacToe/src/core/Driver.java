@@ -98,7 +98,7 @@ public class Driver extends Frame {
   }
 
   /**
-   * Übernimmt Gewinner der Partie und zeigt Siegbildschirm
+   * übernimmt Gewinner der Partie und zeigt Siegbildschirm
    * 
    * @param s Spezifiziert den Gewinner der Partie
    */

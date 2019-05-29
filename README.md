@@ -9,6 +9,9 @@
   * Robert Siedler
   * Patrick Creutzburg
 
+## tmp notes for doc
+* 29.5., 1.5h, About-Grafik, Update Pflichtenheft, Aktualisierung UML
+
 ## Dokumentation git Updates
 
 * falls immer **derselbe lokale Ordner** für das Repo genutzt wird, aktuelle Daten holen mit `$ git pull <url>`
