@@ -20,6 +20,7 @@ public class Driver extends Frame {
   private Menu menu;
   private InfoScreen regeln;
   private InfoScreen infos;
+  private InfoScreen about;
   private Spiel spiel;
   private Sieg sieg;
 
@@ -48,12 +49,14 @@ public class Driver extends Frame {
     menu = new Menu(this);
     regeln = new InfoScreen(this, this.getToolkit().getImage("resources/regeln.jpg"));
     infos = new InfoScreen(this, this.getToolkit().getImage("resources/info.jpg"));
+    about = new InfoScreen(this, this.getToolkit().getImage("resources/about.jpg"));
     spiel = new Spiel(this);
     sieg = new Sieg(this);
 
     this.add("menu", menu);
     this.add("regeln", regeln);
     this.add("infos", infos);
+    this.add("about", about);
     this.add("spiel", spiel);
     this.add("sieg", sieg);
 
@@ -88,6 +91,13 @@ public class Driver extends Frame {
    */
   public void showInfos() {
     cl.show(this, "infos");
+  }
+  
+  /**
+   * Zeigt Aboutbildschirm
+   */
+  public void showAbout() {
+    cl.show(this, "about");
   }
 
   /**

@@ -22,9 +22,11 @@ public class Menu extends Panel {
   private Image start;
   private Image regeln;
   private Image infos;
+  private Image about;
   private Rectangle startDim;
   private Rectangle regelnDim;
   private Rectangle infosDim;
+  private Rectangle aboutDim;
 
   /**
    * Initialisiert das Menü samt Grafiken
@@ -39,11 +41,13 @@ public class Menu extends Panel {
     this.start = this.getToolkit().getImage("resources/menuebutton_start.jpg");
     this.regeln = this.getToolkit().getImage("resources/menuebutton_regeln.jpg");
     this.infos = this.getToolkit().getImage("resources/menuebutton_info.jpg");
+    this.about = this.getToolkit().getImage("resources/menuebutton_about.jpg");
     MediaTracker mt = new MediaTracker(this);
     mt.addImage(img, 1);
     mt.addImage(start, 2);
     mt.addImage(regeln, 3);
     mt.addImage(infos, 4);
+    mt.addImage(about, 5);
     try {
       mt.waitForAll();
     } catch (Exception e) {
@@ -56,15 +60,19 @@ public class Menu extends Panel {
 
     int sx = (int) (start.getWidth(this) * factor);
     int sy = (int) (start.getHeight(this) * factor);
-    startDim = new Rectangle((d.width - sx) / 2, 520, sx, sy);
+    startDim = new Rectangle((d.width - sx) / 2, 420, sx, sy); //520
 
     int rx = (int) (regeln.getWidth(this) * factor);
     int ry = (int) (regeln.getHeight(this) * factor);
-    regelnDim = new Rectangle((d.width - rx) / 2, 685, rx, ry);
+    regelnDim = new Rectangle((d.width - rx) / 2, 580, rx, ry);
 
     int ix = (int) (infos.getWidth(this) * factor);
     int iy = (int) (infos.getHeight(this) * factor);
-    infosDim = new Rectangle((d.width - ix) / 2, 850, ix, iy);
+    infosDim = new Rectangle((d.width - ix) / 2, 740, ix, iy);
+    
+    int ax = (int) (about.getWidth(this) * factor);
+    int ay = (int) (about.getHeight(this) * factor);
+    aboutDim = new Rectangle((d.width - ax) / 2, 900, ax, ay);
 
     // Eventhandler for the buttons
     this.addMouseListener(new MouseAdapter() {
@@ -82,6 +90,10 @@ public class Menu extends Panel {
             && (p.y <= infosDim.y + infosDim.height)) { // Infos-Button
           driver.showInfos();
         }
+        if ((p.x >= aboutDim.x) && (p.x <= aboutDim.x + aboutDim.width) && (p.y >= aboutDim.y)
+                && (p.y <= aboutDim.y + aboutDim.height)) { // Infos-Button
+              driver.showAbout();
+            }
       }
     });
   }
@@ -95,6 +107,7 @@ public class Menu extends Panel {
     paintStart(g);
     paintRegeln(g);
     paintInfos(g);
+    paintAbout(g);
   }
 
   /**
@@ -132,5 +145,14 @@ public class Menu extends Panel {
    */
   public void paintInfos(Graphics g) {
     g.drawImage(infos, infosDim.x, infosDim.y, infosDim.width, infosDim.height, this);
+  }
+  
+  /**
+   * Zeichnen des About-Buttons
+   * 
+   * @param g Grafik-Kontext
+   */
+  public void paintAbout(Graphics g) {
+	g.drawImage(about, aboutDim.x, aboutDim.y, aboutDim.width, aboutDim.height, this);
   }
 }
