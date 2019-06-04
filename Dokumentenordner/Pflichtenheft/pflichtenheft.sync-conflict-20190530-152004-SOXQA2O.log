@@ -1,0 +1,1131 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.29)  21 MAY 2019 11:42
+entering extended mode
+**./pflichtenheft.tex
+(pflichtenheft.tex
+LaTeX2e <2018-12-01>
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
+s"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo
+"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpd
+f.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvt
+ex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxet
+ex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.cfg"))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.s
+ty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.s
+ty"
+Package: babel 2019/04/22 3.30 The Babel package
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.
+def"
+File: switch.def 2019/04/22 3.30 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.c
+fg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ge
+rman.ldf"
+Language: german 2018/12/08 v2.11 German support for babel (pre-1996 orthograph
+y)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ge
+rmanb.ldf"
+Language: germanb 2018/12/08 v2.11 German support for babel (pre-1996 orthograp
+hy)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.d
+ef"
+File: babel.def 2019/04/22 3.30 Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen111
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabe
+l.def")
+\bbl@dirlevel=\count92
+)
+Package babel Info: Making " an active character on input line 135.
+)))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.st
+y"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperr
+ef.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobs
+ub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobs
+ub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhoo
+k.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvopti
+ons.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen112
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc
+.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count95
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperr
+ef.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count96
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen113
+\Fld@menulength=\count97
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdfte
+x.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunf
+ilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.sty"
+\lst@mode=\count103
+\lst@gtempboxa=\box27
+\lst@token=\toks18
+\lst@length=\count104
+\lst@currlwidth=\dimen116
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen117
+\lst@width=\dimen118
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen119
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmis
+c.sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box28
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cs.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pd
+ftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.
+sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\co
+lor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base
+\glossaries.sty"
+Package: glossaries 2019/01/06 v4.42 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval
+.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyv
+al.tex"
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvut
+ils.tex"
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count111
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mfirstuc\mfirst
+uc.sty"
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolb
+ox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count112
+)
+\@glsmfirst=\toks21
+\@glsmrest=\toks22
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textcase\textca
+se.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xfor\xfor.sty"
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\datato
+ol-base.sty"
+Package: datatool-base 2018/12/07 v2.31 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath
+.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext
+.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.
+sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen122
+))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.
+sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen123
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.
+sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count113
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count114
+\leftroot@=\count115
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count116
+\DOTSCASE@=\count117
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
+\dotsspace@=\muskip11
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks24
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks25
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks26
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/substr\substr.s
+ty"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count125
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\datato
+ol-fp.sty"
+Package: datatool-fp 2018/12/07 v2.31 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp.sty"
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\defpattern.s
+ty"
+Package: defpattern 1994/10/12
+\actioncount=\count126
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-basic.sty
+"
+Package: fp-basic 1996/05/13
+\FP@xs=\count127
+\FP@xia=\count128
+\FP@xib=\count129
+\FP@xfa=\count130
+\FP@xfb=\count131
+\FP@rega=\count132
+\FP@regb=\count133
+\FP@regs=\count134
+\FP@times=\count135
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-addons.st
+y"
+Package: fp-addons 1995/03/15
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+) ("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-exp.sty
+"
+Package: fp-exp 1995/04/03
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-trigo.sty
+"
+Package: fp-trigo 1995/04/14
+) ("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-pas.sty
+"
+Package: fp-pas 1994/08/29
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-random.st
+y"
+Package: fp-random 1995/02/23
+\FPseed=\count136
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+) ("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-upn.sty
+"
+Package: fp-upn 1996/10/21
+) ("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eval.st
+y"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks28
+\@dtl@tmpcount=\count137
+\dtl@tmplength=\skip47
+\dtl@sortresult=\count138
+\@dtl@numgrpsepcount=\count139
+\@dtl@datatype=\count140
+\dtl@codeA=\count141
+\dtl@codeB=\count142
+\@dtl@foreach@level=\count143
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base
+\glossaries-compatible-307.sty"
+Package: glossaries-compatible-307 2019/01/06 v4.42 (NLCT)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tracklang\track
+lang.sty"
+Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/tracklang\tra
+cklang.tex"))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\tran
+slator.sty"
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries-germ
+an\glossaries-german.ldf"
+File: glossaries-german.ldf 2014/11/23 v1.0
+)
+\gls@level=\count144
+\@gls@tmpb=\toks29
+\gls@tmplen=\skip48
+\glskeylisttok=\toks30
+\glslabeltok=\toks31
+\glsshorttok=\toks32
+\glslongtok=\toks33
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styl
+es\glossary-hypernav.sty"
+Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styl
+es\glossary-list.sty"
+Package: glossary-list 2019/01/06 v4.42 (NLCT)
+\glslistdottedwidth=\skip49
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styl
+es\glossary-long.sty"
+Package: glossary-long 2019/01/06 v4.42 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable
+.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count145
+\LTcapwidth=\dimen131
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
+\LT@p@ftn=\toks34
+)
+\glsdescwidth=\skip54
+\glspagelistwidth=\skip55
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styl
+es\glossary-super.sty"
+Package: glossary-super 2019/01/06 v4.42 (NLCT)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/supertabular\su
+pertabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count150
+\ST@wd=\dimen132
+\ST@rightskip=\skip56
+\ST@leftskip=\skip57
+\ST@parfillskip=\skip58
+\ST@pageleft=\dimen133
+\ST@headht=\dimen134
+\ST@tailht=\dimen135
+\ST@pagesofar=\dimen136
+\ST@pboxht=\dimen137
+\ST@lineht=\dimen138
+\ST@stretchht=\dimen139
+\ST@prevht=\dimen140
+\ST@toadd=\dimen141
+\ST@dimen=\dimen142
+\ST@pbox=\box35
+))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styl
+es\glossary-tree.sty"
+Package: glossary-tree 2019/01/06 v4.42 (NLCT)
+\glstreeindent=\skip59
+))
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chngcntr\chngcn
+tr.sty"
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.
+sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty
+"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box36
+\extrarowheight=\dimen144
+\NC@list=\toks35
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box37
+)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count151
+\TX@ftn=\toks36
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyh
+dr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip62
+\f@nch@O@elh=\skip63
+\f@nch@O@erh=\skip64
+\f@nch@O@olh=\skip65
+\f@nch@O@orh=\skip66
+\f@nch@O@elf=\skip67
+\f@nch@O@erf=\skip68
+\f@nch@O@olf=\skip69
+\f@nch@O@orf=\skip70
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotati
+ng.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count152
+\rotFPtop=\skip71
+\rotFPbot=\skip72
+\rot@float@box=\box38
+\rot@mess@toks=\toks37
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape
+.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlan
+g1.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmis
+c.sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+)
+\glswrite=\write3
+\glo@main@file=\write4
+\openout4 = `pflichtenheft.glo'.
+
+Package glossaries Info: Writing glossary file pflichtenheft.glo on input line 
+50.
+ (pflichtenheft.aux)
+\openout1 = `pflichtenheft.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring ON on input line 100.
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
+f.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gett
+itlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count153
+)
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
+ (pflichtenheft.out) (pflichtenheft.out)
+\@outlinefile=\write5
+\openout5 = `pflichtenheft.out'.
+
+\c@lstlisting=\count154
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
+p-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count155
+\scratchdimen=\dimen150
+\scratchbox=\box40
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen151
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks39
+)
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
+df-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\MLpLappi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext
+.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+
+pdfTeX warning: pdflatex (file ./banner.pdf): PDF inclusion: found PDF version 
+<1.6>, but at most version <1.5> allowed
+<banner.pdf, id=107, 512.1735pt x 83.9938pt>
+File: banner.pdf Graphic file (type pdf)
+<use banner.pdf>
+Package pdftex.def Info: banner.pdf  used on input line 104.
+(pdftex.def)             Requested size: 460.95189pt x 75.59372pt.
+
+Overfull \hbox (5.70778pt too wide) in paragraph at lines 104--105
+[][] 
+ []
+
+[1
+
+\openout3 = `pflichtenheft.ist'.
+
+{C:/Users/MLpLappi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./banner
+.pdf>] (pflichtenheft.toc)
+\tf@toc=\write6
+\openout6 = `pflichtenheft.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./footer.pdf): PDF inclusion: found PDF version 
+<1.6>, but at most version <1.5> allowed
+<footer.pdf, id=165, 512.1735pt x 72.27pt>
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 178.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+Make it at least 69.39241pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[3 <./footer.pdf>]
+Underfull \hbox (badness 1412) in paragraph at lines 199--199
+[]|\T1/cmr/m/n/12 ausschlieÿlich durch Mit-ar-bei-ter, per Touch-Eingabe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 200.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[4]
+
+pdfTeX warning: pdflatex (file ./Beenden.pdf): PDF inclusion: found PDF version
+ <1.6>, but at most version <1.5> allowed
+File: Beenden.pdf Graphic file (type pdf)
+<use Beenden.pdf>
+Package pdftex.def Info: Beenden.pdf  used on input line 212.
+(pdftex.def)             Requested size: 129.19957pt x 33.29277pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 224.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[5]
+File: Menu.pdf Graphic file (type pdf)
+<use Menu.pdf>
+Package pdftex.def Info: Menu.pdf  used on input line 224.
+(pdftex.def)             Requested size: 143.11458pt x 80.50188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Regeln.pdf): PDF inclusion: found PDF version 
+<1.6>, but at most version <1.5> allowed
+File: Regeln.pdf Graphic file (type pdf)
+<use Regeln.pdf>
+Package pdftex.def Info: Regeln.pdf  used on input line 236.
+(pdftex.def)             Requested size: 143.11491pt x 80.50089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Info.pdf): PDF inclusion: found PDF version <1
+.6>, but at most version <1.5> allowed
+File: Info.pdf Graphic file (type pdf)
+<use Info.pdf>
+Package pdftex.def Info: Info.pdf  used on input line 249.
+(pdftex.def)             Requested size: 143.11491pt x 80.50089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Spielen.pdf): PDF inclusion: found PDF version
+ <1.6>, but at most version <1.5> allowed
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 261.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[6 <./Beenden.pdf> <./Menu.pdf> <./Regeln.pdf>]
+File: Spielen.pdf Graphic file (type pdf)
+<use Spielen.pdf>
+Package pdftex.def Info: Spielen.pdf  used on input line 261.
+(pdftex.def)             Requested size: 143.11491pt x 80.50089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+File: Beenden.pdf Graphic file (type pdf)
+<use Beenden.pdf>
+Package pdftex.def Info: Beenden.pdf  used on input line 273.
+(pdftex.def)             Requested size: 129.19957pt x 33.29277pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 275.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[7 <./Info.pdf> <./Spielen.pdf>]
+<Anwendungsfalldiagramm.pdf, id=264, 542.025pt x 362.3136pt>
+File: Anwendungsfalldiagramm.pdf Graphic file (type pdf)
+<use Anwendungsfalldiagramm.pdf>
+Package pdftex.def Info: Anwendungsfalldiagramm.pdf  used on input line 279.
+(pdftex.def)             Requested size: 487.81798pt x 326.07922pt.
+
+Overfull \hbox (32.57387pt too wide) in paragraph at lines 277--280
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--280
+
+ []
+
+<Aktivitaetsdiagramm.pdf, id=265, 586.10968pt x 352.43669pt>
+File: Aktivitaetsdiagramm.pdf Graphic file (type pdf)
+<use Aktivitaetsdiagramm.pdf>
+Package pdftex.def Info: Aktivitaetsdiagramm.pdf  used on input line 281.
+(pdftex.def)             Requested size: 498.19557pt x 299.5726pt.
+<Zustandsdiagramm.pdf, id=266, 492.88138pt x 304.2567pt>
+File: Zustandsdiagramm.pdf Graphic file (type pdf)
+<use Zustandsdiagramm.pdf>
+Package pdftex.def Info: Zustandsdiagramm.pdf  used on input line 283.
+(pdftex.def)             Requested size: 443.58914pt x 273.82849pt.
+
+Overfull \hbox (42.95146pt too wide) in paragraph at lines 281--284
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 284.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[8 <./Anwendungsfalldiagramm.pdf> <./Aktivitaetsdiagramm.pdf
+
+pdfTeX warning: pdflatex (file ./Aktivitaetsdiagramm.pdf): PDF inclusion: inval
+id other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Klassendiagramm.pdf, id=304, 549.01106pt x 539.1342pt>
+File: Klassendiagramm.pdf Graphic file (type pdf)
+<use Klassendiagramm.pdf>
+Package pdftex.def Info: Klassendiagramm.pdf  used on input line 285.
+(pdftex.def)             Requested size: 466.6616pt x 458.26624pt.
+
+Overfull \hbox (11.4175pt too wide) in paragraph at lines 285--287
+[][] 
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 287.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[9 <./Zustandsdiagramm.pdf
+
+pdfTeX warning: pdflatex (file ./Zustandsdiagramm.pdf): PDF inclusion: invalid 
+other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 302.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[10 <./Klassendiagramm.pdf
+
+pdfTeX warning: pdflatex (file ./Klassendiagramm.pdf): PDF inclusion: invalid o
+ther resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 314.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
+
+ []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 331.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[12]
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 341.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+Make it at least 69.39241pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[13
+
+]
+<Fortschrittstabelle.pdf, id=367, 597.45204pt x 845.1575pt>
+File: Fortschrittstabelle.pdf Graphic file (type pdf)
+<use Fortschrittstabelle.pdf>
+Package pdftex.def Info: Fortschrittstabelle.pdf  used on input line 342.
+(pdftex.def)             Requested size: 537.70186pt x 760.63474pt.
+
+Overfull \hbox (82.45775pt too wide) in paragraph at lines 342--343
+[][] 
+ []
+
+
+Overfull \vbox (43.62527pt too high) has occurred while \output is active []
+
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 343.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[14 <./Fortschrittstabelle.pdf>] (pflichtenheft.gls)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+File: footer.pdf Graphic file (type pdf)
+<use footer.pdf>
+Package pdftex.def Info: footer.pdf  used on input line 345.
+(pdftex.def)             Requested size: 460.95189pt x 65.04237pt.
+
+Overfull \hbox (5.70778pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[15
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+ (pflichtenheft.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package rerunfilecheck Info: File `pflichtenheft.out' has not changed.
+(rerunfilecheck)             Checksum: 30458551821F9A3714E32207D9EC3511;1883.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+ ) 
+Here is how much of TeX's memory you used:
+ 14935 strings out of 492897
+ 246670 string characters out of 3122353
+ 587843 words of memory out of 3000000
+ 18544 multiletter control sequences out of 15000+200000
+ 14592 words of font info for 39 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 45i,15n,72p,2018b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\MLpLappi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\ecbx1440.pk> <C:\Users\MLpLappi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecbx1200.pk> <C:\Users\MLpLappi\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\MLpLappi\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\MLpLappi\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\M
+LpLappi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
+>
+Output written on pflichtenheft.pdf (15 pages, 914633 bytes).
+PDF statistics:
+ 697 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,440 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	margin=2cm,
+	left=3cm, bottom=2.5cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[toc]{glossaries}
+\usepackage{chngcntr} %change counter
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{ulem}
+
+%predefined colors: black, blue, cyan, green, magenta, red, white, yellow
+\definecolor{commentgreen}{rgb}{0,0.6,0}
+\definecolor{keywordblue}{rgb}{0,0,0.8}
+\definecolor{orange}{rgb}{0.9,0.5,0}
+\definecolor{internal_link}{rgb}{0,0,0.4}
+
+\hypersetup{
+	colorlinks=true, 
+	linkcolor=internal_link, 
+	urlcolor=cyan}
+
+\lstset{
+	language=C,
+	basicstyle=\footnotesize\ttfamily,
+	showstringspaces=false,
+	commentstyle=\itshape\color{commentgreen},
+	keywordstyle=\bfseries\color{keywordblue},
+%	identifierstyle=\color{red},
+	stringstyle=\color{orange}
+}
+
+\setlength{\parindent}{0em} %setzt Paragraphen-Einzug auf 0
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand\labelitemii{\textbullet}
+\renewcommand\labelitemiii{\textbullet}
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+
+\title{\textbf{Projektbegleitender Bericht}}
+\author{"Interaktives TicTacToe-Spiel für Kinder"}
+\date{\today} %richtige Formatierung mittels package babel (s.o.)
+
+
+
+\begin{document}
+\begin{titlepage}
+	\centering	
+	\begin{figure}
+	\centering
+	{\scshape\LARGE -INTERNES DOKUMENT- \par}
+	\vspace{1cm}
+	\end{figure}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\vspace*{10cm}	
+	
+
+\end{titlepage}
+	
+\tableofcontents 
+\newpage	
+%"` links, "' rechts
+
+\setcounter{page}{3}
+
+\section{Vorabschätzung}
+Dieser Abschnitt enthält vorab geschätzte Zeiten der einzelnen Teilabschnitte.
+\\\\
+\begin{tabularx}{\textwidth}{|X|X|} \hline
+\textbf{Datum}&\textbf{Meilenstein}\\ \hline
+18.03.2019 & Vorbereitung\\ \hline
+29.03.2019 & Projektplan und Pflichtenheft\\ \hline
+12.04.2019 & Analyse und Entwurf\\ \hline
+03.05.2019 & Prototyp\\ \hline
+10.05.2019 & Funktionstest\\ \hline
+30.08.2019 & Release\\ \hline
+13.09.2019 & Auslieferung\\ \hline
+\end{tabularx}\\\\
+
+\newpage
+
+\section{Protokollierung}
+
+\subsection{Kickoff Meeting}
+Datum: 09.01.2019 \\ \\
+\uline{Besprechung der Projektmodalitäten}
+\begin{itemize}\itemsep0em
+\item Teambildung
+\item Dokumente in LaTeX\\
+\end{itemize}
+
+\uline{Abstecken grober Zielstellungen/Zeitrahmen}
+\begin{itemize}\itemsep0em
+\item Fertigstellung finales Produkt: 27.09.2019
+\item Terminfestlegung für Grobplanung: 15.01.2019,\\
+\textbf{bis dahin:} alle Mitarbeiter lesen sich in das Lastenheft ein\\
+\end{itemize}
+
+% wer hat wann, in welcher rolle wie viel und was gemacht \\
+
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & xx/xx  & \\ \hline
+interne Dokumente & xx/xx &  \\ \hline
+externe Dokumente & xx/xx & \\ \hline
+Entwicklungsumgebungen vorbereitet & xx/xx & \\ \hline
+\textbf{Summe} & xx/xx &  \\ \hline
+\end{tabularx}\\\\
+\newpage
+
+\subsection{Grobplanung}
+Datum: 15.01.2019 \\
+
+\uline{Verteilung der Aufgaben:}
+\begin{itemize}\itemsep0em
+\item Kalkulation: Siedler, Robert - Finanzabteilung
+\item Überarbeitung Firmenporträt, Angebot: Günther, Emanuel - Entwickler
+\item Pflichtenheft: Leopold, Michael - Geschäftsleitung
+\item projektbegleitender Bericht: Creutzburg, Patrick - Werksstudent \\
+\item Besprechen der Einarbeitung in das Lastenheft
+\item Installation der Textentwicklungsumgebung Texmaker, Anfertigen einer Dokumentenvorlage
+\item Anpassung des Corporate Designs durch Herrn Siedler\\
+\end{itemize}
+
+\uline{Zielstellung für das nächste Meeting:}
+\begin{itemize}\itemsep0em
+\item Ausfertigung der Pflichtenhefts
+\item Angebot und interne Kalkulation
+\item Anfertigen einer internen Dokumentation \\
+\end{itemize}
+%Michael: 10.02.2019 Homeoffice in der 2 KW
+%Weitere Befuellung des Pflichtenhefts \\
+%14.02.2019 Homeoffice in der 3 KW
+%Weitere Befuellung des Pflichtenhefts \\
+
+%Robert: \\
+%Beginn Kalkulation, Design
+
+%Alle: \\
+%Micha: Pflichtenheft, Firmenportaet
+%Robert: Corporate Design, Kalkulation
+%Emanuel: Angebot
+%Patirck: Dokumentation
+
+%Ueberlegung wie das Programm Aufgebaut ist. --> %FinalStateMachine Grobfassung
+
+%Schrieben des ersten Auszugs des Firmenporteats \\\\
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 0/300  & 0/100\\ \hline
+interne Dokumente & 0/2 & 0/100  \\ \hline
+externe Dokumente & 0/3 & 0/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 8/100  \\ \hline
+\end{tabularx}\\\\
+\newpage
+
+\subsection{Feinplanung}
+Datum: 23.01.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Kalkulation (Herr Siedler, 4h)
+\item Pflichtenheft, anteilig (Herr Leopold, 3h)
+\item Angebot (Herr Günther, 2h)\\
+\end{itemize}
+
+\uline{Besprechnung:}
+\begin{itemize}\itemsep0em
+\item Vorstellung der Eintragungen vom 10.01. und 14.01. in das Pflichtenheft
+\item Auswertung/Bewertung des bearbeiteten Corporate Designs
+\item Auswertung der Kalkulation
+\item Angebot: Abgleich mit Kalkulation \\
+\end{itemize}
+%Alle: \\
+%kontrolle des Angebots und Firmenportaet. Beides fuer gut und %korrekt empfunden
+
+%Welche Diagramme brauchen wir? --> Klassendiagramm(Vorgegeben) %Anwendungsfalldiagramm(Vorgegeben) Zustandsdiagramm 
+%Diagramme Erstellt
+
+%Erstellen des Ordners: Dokumentationen mit Gruppentreffen und %Personen seperiert
+%Schrieben der ersten Inhalte der Dokumentation \\\\
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 0/300  & 0/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 1/3 & 33/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 42/100  \\ \hline
+\end{tabularx}\\\\
+\newpage
+
+\subsection{Fertigstellung Planung}
+Datum: 29.01.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Pflichtenheft (Herr Leopold, 4h)
+\item Firmenporträt (Herr Günther, 2h)
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Vorstellung Änderungen Pflichtenheft und Finalisierung
+\item Vorstellung Änderungen Firmenporträt und Finalisierung
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 0/300  & 0/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 58/100  \\ \hline
+\end{tabularx}\\\\
+
+\newpage
+\subsection{Aufsetzen des Repository}
+Datum: 10.04.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Git Repository eingerichtet (Herr Günther,Leopold Michael, 1h)
+\item Auswahl des Prototyping tool(Herr Creutzburg, 1h)
+\item Erste Ideen zur Prototyp Oberfläche(Herr Creutzburg, 1h)
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Programmierung, Grafiken, Projektbegleitender Bericht
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 0/300  & 0/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 58/100  \\ \hline
+\end{tabularx}\\\\
+
+\newpage
+
+
+\newpage
+\subsection{Implementierungsbesprechung}
+Datum: 17.04.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Prototyp(Herr Creutzburg, 2h)
+\item Umstrukturierung des Repositorys (Herr Leopold,Herr Günther, 1h)
+\end{itemize}
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Einigung auf Grafiken basiertes Design
+\item Besprechung über die ersten zu nutzenden Grafiken
+\item Texte für Copyright, Spielregeln etc. erstellen 
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 280/500  & 28/100\\ \hline
+interne Dokumente & 10/10 & 100/100  \\ \hline
+externe Dokumente & 4/4 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 3/3 & 100/100 \\ \hline % bold hline
+\textbf{Summe} & - & 58/100  \\ \hline
+\end{tabularx}\\\\
+\newpage
+
+\newpage
+\subsection{Weiterführende Implementierungsgespräche}
+Datum: 24.04.2019 \\
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Grafiken des Spiels
+\item Termine festlegen für weitere Aufgaben
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 280/500  & 56/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 58/100  \\ \hline
+\end{tabularx}\\\\
+
+\newpage
+
+
+\newpage
+\subsection{Bearbeitung Grundlegender offener Aufgaben}
+Datum: 01.05.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Beginn Umbau auf Grafiken (Herr Günther, 4h)
+\item Fortschrittstabelle und Pflichtenheft aktualisiert (Herr Leopold, 2,5h)
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Folgende Aufgabenverteilung: 
+\begin{itemize}\itemsep0em
+\item JavaDoc, JUnit, Code Styleguide (Herr Günther)
+\item Anwenderdokumentation (Herr Siedler) 
+\item Gradle, Pflichtenheft, projektbegleitender Bericht (Herr Leopold)\\
+\end{itemize}
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 325/500  & 65/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 1/3 & 33/100 \\ \hline
+\textbf{Summe} & - & 58/100  \\ \hline
+\end{tabularx}\\\\
+
+\newpage
+
+\newpage
+\subsection{Arbeit an Dokumentation}
+Datum: 8.05.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item Screenshots fertig (Herr Siedler, Herr Creutzburg, 1h)
+\item finale Ertsellung der Grafiken(Herr Siedler, 3h)
+\item Pflichtenheft fertig mit Screenshots und Fortschrittstabelle (Herr Leopold, 1h)
+\item finale Grafiken eingepflegt (Herr Günther, 1h)
+\item UML-Diagramme aktualisiert (Herr Günther, Herr Creutzburg, 1h)
+\item  manueller Test Programm, Änderungen an Grafik (alle, 2h)\\
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Gradle Probleme mit Integration beheben
+\item Entscheidung: Änderung Pflichtenheft: Auflösung muss FullHD sein
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 468/468  & 100/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 2/3 & 66/100 \\ \hline
+\textbf{Summe} & - & 80/100  \\ \hline
+\end{tabularx}\\\\
+
+
+\newpage
+\subsection{Vervollständigung Dokumentation, Buildtool}
+Datum: 15.05.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+
+\item JavaDoc, Google Style Guide, Ant (Herr Günther, 1h)
+\item Anwenderdoku (Herr Günther, Herr Creutzburg, 2,5h)
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Anwenderdoku gegengelesen, verbesserungen werden umgestzt.
+\item 'Gradle Umsetzung hat sich als sehr schwer herausgestellt!' $\rightarrow$ Umstieg auf Ant
+
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 468/468  & 100/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 3/3 & 66/100 \\ \hline
+\textbf{Summe} & - & 80/100  \\ \hline
+\end{tabularx}\\\\
+
+\newpage
+\subsection{Vervollständigung Dokumentation, Buildtool}
+Datum: 22.05.2019 \\
+
+\uline{Fertiggestellt:}
+\begin{itemize}\itemsep0em
+\item JUnit Tests
+\item JavaDoc + Google Java Style Guide (Herr Günther, 1h)
+\item JUnit-Tests + Ant (Herr Günther, 3,5h)
+\item ProGuard Task erstellt in Ant inkludiert (Herr Günther, 2h)
+\item Bugfix - Ressourcenpfad (Herr Günther, 2h) 
+\item Update Pflichtenheft, projektbegleitender Bericht(Herr Leopold, 0,5h)
+\item Batch-/Shell-Skripte (Herr Günther, Herr Creutzburg, 1h)
+\item Merge (Herr Günther, Herr Siedler, Herr Leopold, 15')
+\end{itemize}
+
+\uline{Besprechung:}
+\begin{itemize}\itemsep0em
+\item Präsentation
+\end{itemize}
+
+Fortschritt:\\\\
+\begin{tabularx}{\textwidth}{|X|r|r|} \hline
+\textbf{Gegenstand}&\textbf{Fertigstellung} & \textbf{in Prozent}\\ \hline
+lines of code & 468/468  & 100/100\\ \hline
+interne Dokumente & 1/1 & 100/100  \\ \hline
+externe Dokumente & 3/3 & 100/100 \\ \hline
+Entwicklungsumgebungen vorbereitet & 3/3 & 100/100 \\ \hline
+\textbf{Summe} & - & 80/100  \\ \hline
+\end{tabularx}\\\\
+
+
+\clearpage
+
+\end{document}
