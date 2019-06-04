@@ -12,6 +12,8 @@ xcopy "Dokumentenordner\Angebot\angebot.pdf" final\
 ren final\angebot.pdf Angebot.pdf
 xcopy "Dokumentenordner\Anwenderdoku\Anwenderdoku.pdf" final\
 ren final\Anwenderdoku.pdf Anwenderdokumentation.pdf
+xcopy "Dokumentenordner\Admindoku\Admindoku.pdf" final\
+ren final\Admindoku.pdf Admindokumentation.pdf
 xcopy "Dokumentenordner\Entwicklungsumgebung\Entwicklungsumgebung.pdf" final\
 xcopy "Dokumentenordner\Firmenportraet\firmenportraet.pdf" final\
 ren final\firmenportraet.pdf Firmenportraet_AN.pdf
