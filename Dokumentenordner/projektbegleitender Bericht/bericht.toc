@@ -12,3 +12,5 @@
 \contentsline {subsection}{\numberline {2.9}Arbeit an Dokumentation}{12}{subsection.2.9}% 
 \contentsline {subsection}{\numberline {2.10}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{13}{subsection.2.10}% 
 \contentsline {subsection}{\numberline {2.11}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{14}{subsection.2.11}% 
+\contentsline {subsection}{\numberline {2.12}Treff nach Erweiterung: 'About-Button'}{15}{subsection.2.12}% 
+\contentsline {subsection}{\numberline {2.13}Treff nach Erweiterung: 'About-Button'}{16}{subsection.2.13}% 
