@@ -9,6 +9,10 @@
   * Robert Siedler
   * Patrick Creutzburg
 
+## Notizen projbegl. Bericht
+* Emanuel, 11.6., 1h; JUnit Krams
+* alle, 12.6., 1.5h, Praktikum; Präsentation
+
 ## Dokumentation git Updates
 
 * falls immer **derselbe lokale Ordner** für das Repo genutzt wird, aktuelle Daten holen mit `$ git pull <url>`
