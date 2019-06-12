@@ -13,10 +13,6 @@ import java.io.File;
 import java.nio.ByteBuffer;
 import javax.imageio.ImageIO;
 import javax.imageio.stream.FileImageInputStream;
-import core.Driver;
-import core.InfoScreen;
-import core.Sieg;
-import core.Spiel;
 
 public class TicTacToeTests {
   public Dimension screen;
@@ -65,7 +61,6 @@ public class TicTacToeTests {
   public void aboutTest() {
     BufferedImage ai = null;
     try {
-      //System.out.println("Working Directory = " + System.getProperty("user.dir"));
       ai = ImageIO.read(new FileImageInputStream(new File("../resources/about.jpg")));
     } catch (Exception e) {
       System.out.println(e);
@@ -80,12 +75,7 @@ public class TicTacToeTests {
     about.paint(testg);
     testData = ((DataBufferInt)testImg.getData().getDataBuffer()).getData();
     
-    //System.out.println("len(rD)=" + refData.length + ", len(tD)=" + testData.length);
-    
     for (int i = 0; i < refData.length; i++) {
-      //System.out.println("a[i]=" + a[i] + ", tD[i]=" + testData[i]);
-      //System.out.println("rD[i] = " + String.format("0x%08X", refData[i]) 
-      //  + ", tD[i] = " + testData[i]);
       assert(refData[i] == testData[i]);
     }
   }

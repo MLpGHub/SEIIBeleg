@@ -10,4 +10,3 @@
 -keep public class core.Driver {
 	public static void main(java.lang.String[]);
 }
-

@@ -1,11 +1,8 @@
 Testsuite: core.TicTacToeTests
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.752 sec
-------------- Standard Output ---------------
-Working Directory = /home/emanuel/Documents/Studium/Software Engineering II/SEIIBeleg/Projektordner Java/TicTacToe/bin
-------------- ---------------- ---------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,517 sec
 
-Testcase: aboutTest took 0.307 sec
-Testcase: driverScreenSizeTest took 0.045 sec
-Testcase: siegTest took 0.058 sec
-Testcase: infoScreenTest took 0.022 sec
-Testcase: spielTest took 0.075 sec
+Testcase: aboutTest took 0,247 sec
+Testcase: driverScreenSizeTest took 0,01 sec
+Testcase: siegTest took 0,01 sec
+Testcase: infoScreenTest took 0,01 sec
+Testcase: spielTest took 0,01 sec
