@@ -9,7 +9,7 @@ cp Dokumente\ AG/Ausschreibung/ausschreibung.pdf final/Ausschreibung.pdf
 cp Dokumente\ AG/Firmenportraet/firmenportraet.pdf final/Firmenportraet_AG.pdf
 cp Dokumente\ AG/Lastenheft/lastenheft.pdf final/Lastenheft.pdf
 cp Dokumentenordner/Angebot/angebot.pdf final/Angebot.pdf
-cp Dokumentenordner/Admindoku/admindoku.pdf final/Admindokumentation.pdf
+cp Dokumentenordner/Admindoku/admindoku.pdf final/Administratordokumentation.pdf
 cp Dokumentenordner/Anwenderdoku/Anwenderdoku.pdf final/Anwenderdokumentation.pdf
 cp Dokumentenordner/Entwicklungsumgebung/Entwicklungsumgebung.pdf final
 cp Dokumentenordner/Firmenportraet/firmenportraet.pdf final/Firmenportraet_AN.pdf
