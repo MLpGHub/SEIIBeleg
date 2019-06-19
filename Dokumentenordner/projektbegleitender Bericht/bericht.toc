@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \babel@toc {german}{}
 \contentsline {section}{\numberline {1}Vorabsch\IeC {\"a}tzung}{3}{section.1}% 
 \contentsline {section}{\numberline {2}Protokollierung}{4}{section.2}% 
@@ -13,21 +12,20 @@
 \contentsline {subsection}{\numberline {2.9}Arbeit an Dokumentation}{12}{subsection.2.9}% 
 \contentsline {subsection}{\numberline {2.10}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{13}{subsection.2.10}% 
 \contentsline {subsection}{\numberline {2.11}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{14}{subsection.2.11}% 
-=======
-\babel@toc {german}{}
-\contentsline {section}{\numberline {1}Vorabsch\IeC {\"a}tzung}{3}{section.1}% 
-\contentsline {section}{\numberline {2}Protokollierung}{4}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Kickoff Meeting}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Grobplanung}{5}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Feinplanung}{6}{subsection.2.3}% 
-\contentsline {subsection}{\numberline {2.4}Fertigstellung Planung}{7}{subsection.2.4}% 
-\contentsline {subsection}{\numberline {2.5}Aufsetzen des Repository}{8}{subsection.2.5}% 
-\contentsline {subsection}{\numberline {2.6}Implementierungsbesprechung}{9}{subsection.2.6}% 
-\contentsline {subsection}{\numberline {2.7}Weiterf\IeC {\"u}hrende Implementierungsgespr\IeC {\"a}che}{10}{subsection.2.7}% 
-\contentsline {subsection}{\numberline {2.8}Bearbeitung Grundlegender offener Aufgaben}{11}{subsection.2.8}% 
-\contentsline {subsection}{\numberline {2.9}Arbeit an Dokumentation}{12}{subsection.2.9}% 
-\contentsline {subsection}{\numberline {2.10}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{13}{subsection.2.10}% 
-\contentsline {subsection}{\numberline {2.11}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{14}{subsection.2.11}% 
-\contentsline {subsection}{\numberline {2.12}Treff nach Erweiterung: 'About-Button'}{15}{subsection.2.12}% 
-\contentsline {subsection}{\numberline {2.13}Treff nach Erweiterung: 'About-Button'}{16}{subsection.2.13}% 
->>>>>>> doc
+\contentsline {section}{\numberline {3}Vorabsch\IeC {\"a}tzung}{3}{section.3}% 
+\contentsline {section}{\numberline {4}Protokollierung}{4}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Kickoff Meeting}{4}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Grobplanung}{5}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Feinplanung}{6}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Fertigstellung Planung}{7}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Aufsetzen des Repository}{8}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Implementierungsbesprechung}{9}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {4.7}Weiterf\IeC {\"u}hrende Implementierungsgespr\IeC {\"a}che}{10}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {4.8}Bearbeitung Grundlegender offener Aufgaben}{11}{subsection.4.8}% 
+\contentsline {subsection}{\numberline {4.9}Arbeit an Dokumentation}{12}{subsection.4.9}% 
+\contentsline {subsection}{\numberline {4.10}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{13}{subsection.4.10}% 
+\contentsline {subsection}{\numberline {4.11}Vervollst\IeC {\"a}ndigung Dokumentation, Buildtool}{14}{subsection.4.11}% 
+\contentsline {subsection}{\numberline {4.12}Treff nach Erweiterung: 'About-Button'}{15}{subsection.4.12}% 
+\contentsline {subsection}{\numberline {4.13}Treff nach Erweiterung: 'About-Button'}{16}{subsection.4.13}% 
+\contentsline {subsection}{\numberline {4.14}Treff nach Erweiterung: 'About-Button'}{17}{subsection.4.14}% 
+\contentsline {subsection}{\numberline {4.15}Letzter Treff vor Abgabe - About Button}{18}{subsection.4.15}% 
