@@ -9,12 +9,6 @@
   * Robert Siedler
   * Patrick Creutzburg
 
-## tmp notes for doc
-* 29.5., 1.5h, About-Grafik, Update Pflichtenheft, Aktualisierung UML
-* Emanuel, 11.6., 1h; JUnit Krams
-* alle, 12.6., 1.5h, Praktikum; Präsentation
-* Emanuel/Micha, 18.6., 2h, Merges und UPDATE
-
 
 ## Dokumentation git Updates
 
