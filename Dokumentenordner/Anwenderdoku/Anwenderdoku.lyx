@@ -210,8 +210,8 @@ Start
 \begin_inset Quotes erd
 \end_inset
 
--Buttons gelangen Sie zum Spiel selbst.
- Unter 
+-Buttons gelangen Sie zum Spiel selbst, während Sie durch Druck auf den
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -219,8 +219,9 @@ Regeln
 \begin_inset Quotes erd
 \end_inset
 
- finden sie eine Anleitung über den Spielverlauf und das Regelwerk.
- Durch Drücken auf den 
+-Button zunächst eine Anleitung über den Spielverlauf und das Regelwerk
+ finden.
+ Unter 
 \begin_inset Quotes eld
 \end_inset
 
@@ -228,7 +229,15 @@ Info
 \begin_inset Quotes erd
 \end_inset
 
--Button erhalten Sie nähere Informationen zum Produkt.
+ erhalten Sie nähere Informationen zum Produkt und unter 
+\begin_inset Quotes pld
+\end_inset
+
+About
+\begin_inset Quotes prd
+\end_inset
+
+ einen Überblick zu den Projektdaten.
 \end_layout
 
 \begin_layout Standard
@@ -236,11 +245,11 @@ Info
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename 001.PNG
+	filename 001_new.PNG
 	width 100text%
 
 \end_inset
@@ -622,8 +631,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename 009b.png
+	filename 009b_new.png
 	width 100text%
+	BoundingBox 0bp 0bp 1313bp 739bp
 
 \end_inset
 
